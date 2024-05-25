@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoSzereloShared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1812dd6a5106634e44ff4ad02fb48e3d2952e134")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d8098c7241677a88cfc9db612c18f7a5315113d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoSzereloShared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoSzereloShared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

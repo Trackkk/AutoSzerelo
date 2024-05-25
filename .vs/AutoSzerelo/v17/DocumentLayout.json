@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}|AutoSzereloShared\\AutoSzereloShared.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszereloshared\\kliens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}|AutoSzereloShared\\AutoSzereloShared.csproj|solutionrelative:autoszereloshared\\kliens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|solutionrelative:autoszerelo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo\\kliensszolgaltatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|solutionrelative:autoszerelo\\kliensszolgaltatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo\\munkaszolgaltatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C39DBA7D-17BC-44E9-A929-1533D5E4639D}|AutoSzerelo\\AutoSzerelo.csproj|solutionrelative:autoszerelo\\munkaszolgaltatas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +39,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Kliens.cs",
-              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\Kliens.cs",
-              "RelativeDocumentMoniker": "AutoSzereloShared\\Kliens.cs",
-              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\Kliens.cs",
-              "RelativeToolTip": "AutoSzereloShared\\Kliens.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T12:00:35.508Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\Program.cs",
               "RelativeDocumentMoniker": "AutoSzerelo\\Program.cs",
               "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\Program.cs",
               "RelativeToolTip": "AutoSzerelo\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAQwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T11:56:42.656Z"
+              "WhenOpened": "2024-05-25T15:10:25.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KliensSzolgaltatas.cs",
+              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\KliensSzolgaltatas.cs",
+              "RelativeDocumentMoniker": "AutoSzerelo\\KliensSzolgaltatas.cs",
+              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\KliensSzolgaltatas.cs",
+              "RelativeToolTip": "AutoSzerelo\\KliensSzolgaltatas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:55:52.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MunkaSzolgaltatas.cs",
+              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\MunkaSzolgaltatas.cs",
+              "RelativeDocumentMoniker": "AutoSzerelo\\MunkaSzolgaltatas.cs",
+              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\MunkaSzolgaltatas.cs",
+              "RelativeToolTip": "AutoSzerelo\\MunkaSzolgaltatas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T14:57:49.599Z",
+              "EditorCaption": ""
             }
           ]
         }
