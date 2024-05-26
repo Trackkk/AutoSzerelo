@@ -75,17 +75,25 @@ namespace AutoSzerelo
             }
         }
 
-        public async Task Update(Munka job)
+        public async Task Update(Munka ujMunka)
         {
             try
             {
-                _context.Munkak.Update(job);
+                var regiMunka = await Get(ujMunka.MunkaId);
+                regiMunka.KliensId = ujMunka.KliensId;
+                regiMunka.Allapot = ujMunka.Allapot;
+                regiMunka.Rendszam = ujMunka.Rendszam;
+                regiMunka.GyartasiEv = ujMunka.GyartasiEv;
+                regiMunka.MKategoria = ujMunka.MKategoria;
+                regiMunka.Leiras = ujMunka.Leiras;
+                regiMunka.HibaSulyossaga = ujMunka.HibaSulyossaga;      
+
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Munka sikeresen frissítve: {@MunkaId}", job.MunkaId);
+                _logger.LogInformation("Munka sikeresen frissítve: {@MunkaId}", ujMunka.MunkaId);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Hiba történt a munka frissítése során: {@MunkaId}", job.MunkaId);
+                _logger.LogError(ex, "Hiba történt a munka frissítése során: {@MunkaId}", ujMunka.MunkaId);
                 throw;
             }
         }

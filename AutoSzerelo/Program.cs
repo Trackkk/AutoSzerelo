@@ -19,7 +19,6 @@ namespace AutoSzerelo
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
             
             builder.Services.AddDbContext<AutoSzereloKontextus>(options =>
             {
@@ -29,7 +28,6 @@ namespace AutoSzerelo
 
             builder.Services.AddSingleton<IKliensSzolgaltatas, KliensSzolgaltatas>();
             builder.Services.AddSingleton<IMunkaSzolgaltatas, MunkaSzolgaltatas>();
-            
 
             var app = builder.Build();
 

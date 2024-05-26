@@ -1,0 +1,34 @@
+﻿@using AutoSzerelo.Shared
+
+<EditForm Model="Kliens" OnValidSubmit="() => OnValidSubmit()">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label class="form-label">Név</label>
+        <InputText @bind-Value="Kliens.KliensNev" class="form-input" />
+        <ValidationMessage For="@(() => Kliens.KliensNev)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <InputText @bind-Value="Kliens.Email" class="form-input" />
+        <ValidationMessage For="@(() => Kliens.Email)" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Lakcím</label>
+        <InputText @bind-Value="Kliens.Lakcim" class="form-input" />
+        <ValidationMessage For="@(() => Kliens.Lakcim)" />
+    </div>
+
+    <button class="btn btn-primary" type="submit">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Kliens Kliens { get; set; }
+
+    [Parameter]
+    public Func<Task> OnValidSubmit { get; set; }
+
+    [Parameter]
+    public string ButtonText { get; set; }
+}

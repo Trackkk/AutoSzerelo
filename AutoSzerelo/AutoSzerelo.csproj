@@ -17,9 +17,9 @@
     <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
-    <ItemGroup>
-	    <ProjectReference Include="..\AutoSzereloShared\AutoSzerelo.Shared.csproj" />
-    </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\AutoSzereloShared\AutoSzerelo.Shared.csproj" />
+	</ItemGroup>
     <ItemGroup>
       <Folder Include="Controllers\" />
     </ItemGroup>

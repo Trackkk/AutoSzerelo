@@ -1,6 +1,7 @@
 ﻿using AutoSzerelo.Shared;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Net;
 
 namespace AutoSzerelo
 {
@@ -92,17 +93,20 @@ namespace AutoSzerelo
             }
         }
 
-        public async Task Update(Kliens kliens)
+        public async Task Update(Kliens ujkliens)
         {
             try
             {
-                _context.Kliensek.Update(kliens);
+                var regiKliens = await Get(ujkliens.KliensId);
+                regiKliens.KliensNev = ujkliens.KliensNev;
+                regiKliens.Lakcim = ujkliens.Lakcim;
+                regiKliens.Email = ujkliens.Email;
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Kliens sikeresen frissítve: {@KliensId}", kliens.KliensId);
+                _logger.LogInformation("Kliens sikeresen frissítve: {@KliensId}", ujkliens.KliensId);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Hiba történt a kliens frissítése során: : {@KliensId}", kliens.KliensId);
+                _logger.LogError(ex, "Hiba történt a kliens frissítése során: : {@KliensId}", ujkliens.KliensId);
                 throw;
             }
         }

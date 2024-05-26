@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Szolgaltatasok\" />
+    <ProjectReference Include="..\AutoSzereloShared\AutoSzerelo.Shared.csproj" />
   </ItemGroup>
 
 </Project>
