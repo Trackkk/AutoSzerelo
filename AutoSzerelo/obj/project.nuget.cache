@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4UMXp+03BCRt/Wq9UeILb1e/EeOsTBbnHjdC8mXUMleGeGtzVgLESSxOTEMQ88UwjLy0z1n6LAmZ1jT5wwXVjg==",
+  "dgSpecHash": "p2IGKNP2TJ3uW3P8xylBkn3loPGVoUVQOc14+BJBYxhgqBg4zGHQ0AczzCv5vT4r17uz3v/6eQCPL1X6Zpdyqg==",
   "success": true,
   "projectFilePath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\AutoSzerelo.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,6 @@
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.5\\microsoft.entityframeworkcore.relational.8.0.5.nupkg.sha512",
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\8.0.5\\microsoft.entityframeworkcore.sqlite.8.0.5.nupkg.sha512",
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\8.0.5\\microsoft.entityframeworkcore.sqlite.core.8.0.5.nupkg.sha512",
-    "C:\\Users\\Track\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.5\\microsoft.entityframeworkcore.tools.8.0.5.nupkg.sha512",
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Track\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",

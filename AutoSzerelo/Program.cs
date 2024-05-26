@@ -1,4 +1,3 @@
-using MechanicApp;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
 
