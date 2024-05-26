@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace AutoSzereloShared
+namespace AutoSzerelo.Shared
 {
     public class DatumTartomanyAttribute : ValidationAttribute
     {

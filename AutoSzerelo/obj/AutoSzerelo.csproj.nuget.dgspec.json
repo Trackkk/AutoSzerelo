@@ -4,12 +4,12 @@
     "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo\\AutoSzerelo.csproj": {}
   },
   "projects": {
-    "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj": {
+    "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj",
-        "projectName": "AutoSzereloShared",
-        "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj",
+        "projectUniqueName": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj",
+        "projectName": "AutoSzerelo.Shared",
+        "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj",
         "packagesPath": "C:\\Users\\Track\\.nuget\\packages\\",
         "outputPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\obj\\",
         "projectStyle": "PackageReference",
@@ -98,8 +98,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj": {
-                "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj"
+              "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj": {
+                "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj"
               }
             }
           }

@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo", "AutoSzerelo\AutoSzerelo.csproj", "{C39DBA7D-17BC-44E9-A929-1533D5E4639D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSzereloShared", "AutoSzereloShared\AutoSzereloShared.csproj", "{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo.Shared", "AutoSzereloShared\AutoSzerelo.Shared.csproj", "{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoSzereloUI", "AutoSzereloUI\AutoSzereloUI.csproj", "{CDB9486D-833A-4538-BD26-7D47C52F9061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo.UI", "AutoSzereloUI\AutoSzerelo.UI.csproj", "{CDB9486D-833A-4538-BD26-7D47C52F9061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -2065,9 +2065,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\AutoSzereloUI.csproj",
-      "projectName": "AutoSzereloUI",
-      "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\AutoSzereloUI.csproj",
+      "projectUniqueName": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\AutoSzerelo.UI.csproj",
+      "projectName": "AutoSzerelo.UI",
+      "projectPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\AutoSzerelo.UI.csproj",
       "packagesPath": "C:\\Users\\Track\\.nuget\\packages\\",
       "outputPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3IKuVjuS1kIqs5Tf1I/3ysIVWDYe3KSrlpJAjHzHqDUrd/EoF4yHDBM+hgj6/6eh/Mx+/mto2WayIXpzLMzYsw==",
+  "dgSpecHash": "zuCKNHkauiK7MWn0ZW77iFoJxGiwHneU0UOoD2Vc8ecbJRF3oFRqK8F+ScR0HMoX2pSXYnoxcPWRdzF6i5AdYQ==",
   "success": true,
-  "projectFilePath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzereloShared.csproj",
+  "projectFilePath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\AutoSzerelo.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

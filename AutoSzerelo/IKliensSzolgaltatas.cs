@@ -1,4 +1,4 @@
-﻿using AutoSzereloShared;
+﻿using AutoSzerelo.Shared;
 
 namespace AutoSzerelo
 {

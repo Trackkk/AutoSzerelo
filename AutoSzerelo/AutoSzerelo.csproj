@@ -18,7 +18,7 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
     <ItemGroup>
-	    <ProjectReference Include="..\AutoSzereloShared\AutoSzereloShared.csproj" />
+	    <ProjectReference Include="..\AutoSzereloShared\AutoSzerelo.Shared.csproj" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Controllers\" />

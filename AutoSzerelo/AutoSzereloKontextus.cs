@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using AutoSzereloShared;
+using AutoSzerelo.Shared;
 
 namespace AutoSzerelo
 {

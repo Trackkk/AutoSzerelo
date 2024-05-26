@@ -137,5 +137,5 @@ D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\bin\Debug\net8.0\runtimes\win-x86\
 D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\obj\Debug\net8.0\AutoSzerelo.csproj.AssemblyReference.cache
 D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\obj\Debug\net8.0\AutoSzerelo.MvcApplicationPartsAssemblyInfo.cs
 D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\obj\Debug\net8.0\AutoSzer.E0666717.Up2Date
-D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\bin\Debug\net8.0\AutoSzereloShared.dll
-D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\bin\Debug\net8.0\AutoSzereloShared.pdb
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\bin\Debug\net8.0\AutoSzerelo.Shared.dll
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo\bin\Debug\net8.0\AutoSzerelo.Shared.pdb

@@ -1,15 +1,15 @@
 {
   "Version": 1,
-  "Hash": "MuLkBW05ahfI+lQlyV49+LesxketkZR1UC0bngpltlc=",
-  "Source": "AutoSzereloUI",
+  "Hash": "iVKnUUorJTR8a8WZojjzxqSBHItalympi87o48BdMVw=",
+  "Source": "AutoSzerelo.UI",
   "BasePath": "/",
   "Mode": "Root",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "AutoSzereloUI\\wwwroot",
-      "Source": "AutoSzereloUI",
+      "Name": "AutoSzerelo.UI\\wwwroot",
+      "Source": "AutoSzerelo.UI",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
       "Pattern": "**"
@@ -17,12 +17,12 @@
   ],
   "Assets": [
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.pdb",
-      "SourceId": "AutoSzereloUI",
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.pdb",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/AutoSzereloUI.pdb",
+      "RelativePath": "_framework/AutoSzerelo.UI.pdb",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -33,15 +33,15 @@
       "AssetTraitValue": "symbol",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "obj\\Debug\\net8.0\\AutoSzereloUI.pdb"
+      "OriginalItemSpec": "obj\\Debug\\net8.0\\AutoSzerelo.UI.pdb"
     },
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.wasm",
-      "SourceId": "AutoSzereloUI",
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.wasm",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/AutoSzereloUI.wasm",
+      "RelativePath": "_framework/AutoSzerelo.UI.wasm",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -52,11 +52,11 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\webcil\\AutoSzereloUI.wasm"
+      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\webcil\\AutoSzerelo.UI.wasm"
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -75,7 +75,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -94,7 +94,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -113,7 +113,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.js.map",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -132,7 +132,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.8.0.5.mx8d1mbowp.js",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -151,7 +151,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.native.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -170,7 +170,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.8.0.5.amodhjqzk3.js",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -189,7 +189,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\dotnet.runtime.js.map",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -208,7 +208,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_CJK.dat",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -227,7 +227,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_EFIGS.dat",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -246,7 +246,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\icudt_no_CJK.dat",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -265,7 +265,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -284,7 +284,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -303,7 +303,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -322,7 +322,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -341,7 +341,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -360,7 +360,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -379,7 +379,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.CSharp.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -398,7 +398,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Abstractions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -417,7 +417,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Binder.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -436,7 +436,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.FileExtensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -455,7 +455,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -474,7 +474,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -493,7 +493,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -512,7 +512,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -531,7 +531,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -550,7 +550,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Physical.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -569,7 +569,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -588,7 +588,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -607,7 +607,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -626,7 +626,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -645,7 +645,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -664,7 +664,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -683,7 +683,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -702,7 +702,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.Core.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -721,7 +721,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.VisualBasic.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -740,7 +740,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -759,7 +759,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Win32.Registry.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -778,7 +778,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\mscorlib.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -797,7 +797,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\netstandard.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -816,7 +816,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.AppContext.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -835,7 +835,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Buffers.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -854,7 +854,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Concurrent.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -873,7 +873,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Immutable.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -892,7 +892,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.NonGeneric.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -911,7 +911,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.Specialized.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -930,7 +930,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Collections.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -949,7 +949,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -968,7 +968,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.DataAnnotations.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -987,7 +987,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1006,7 +1006,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1025,7 +1025,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1044,7 +1044,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ComponentModel.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1063,7 +1063,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Configuration.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1082,7 +1082,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Console.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1101,7 +1101,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Core.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1120,7 +1120,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.Common.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1139,7 +1139,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1158,7 +1158,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Data.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1177,7 +1177,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1196,7 +1196,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Debug.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1215,7 +1215,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.DiagnosticSource.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1234,7 +1234,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.FileVersionInfo.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1253,7 +1253,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Process.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1272,7 +1272,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.StackTrace.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1291,7 +1291,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1310,7 +1310,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tools.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1329,7 +1329,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.TraceSource.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1348,7 +1348,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Diagnostics.Tracing.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1367,7 +1367,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1386,7 +1386,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1405,7 +1405,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Dynamic.Runtime.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1424,7 +1424,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Asn1.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1443,7 +1443,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Formats.Tar.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1462,7 +1462,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Calendars.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1481,7 +1481,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.Extensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1500,7 +1500,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Globalization.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1519,7 +1519,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1538,7 +1538,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.FileSystem.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1557,7 +1557,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1576,7 +1576,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Compression.ZipFile.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1595,7 +1595,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.AccessControl.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1614,7 +1614,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.DriveInfo.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1633,7 +1633,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1652,7 +1652,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1671,7 +1671,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.FileSystem.Watcher.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1690,7 +1690,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.IsolatedStorage.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1709,7 +1709,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1728,7 +1728,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipelines.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1747,7 +1747,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1766,7 +1766,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.Pipes.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1785,7 +1785,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.UnmanagedMemoryStream.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1804,7 +1804,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1823,7 +1823,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Expressions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1842,7 +1842,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Parallel.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1861,7 +1861,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.Queryable.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1880,7 +1880,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Linq.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1899,7 +1899,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Memory.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1918,7 +1918,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.Json.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1937,7 +1937,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Http.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1956,7 +1956,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.HttpListener.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1975,7 +1975,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Mail.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -1994,7 +1994,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.NameResolution.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2013,7 +2013,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.NetworkInformation.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2032,7 +2032,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Ping.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2051,7 +2051,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2070,7 +2070,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Quic.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2089,7 +2089,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Requests.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2108,7 +2108,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Security.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2127,7 +2127,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.ServicePoint.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2146,7 +2146,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.Sockets.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2165,7 +2165,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2184,7 +2184,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebClient.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2203,7 +2203,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebHeaderCollection.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2222,7 +2222,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebProxy.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2241,7 +2241,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.Client.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2260,7 +2260,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Net.WebSockets.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2279,7 +2279,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.Vectors.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2298,7 +2298,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Numerics.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2317,7 +2317,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ObjectModel.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2336,7 +2336,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.CoreLib.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2355,7 +2355,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.DataContractSerialization.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2374,7 +2374,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Uri.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2393,7 +2393,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.Linq.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2412,7 +2412,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Private.Xml.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2431,7 +2431,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2450,7 +2450,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2469,7 +2469,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.Lightweight.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2488,7 +2488,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2507,7 +2507,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Extensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2526,7 +2526,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Metadata.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2545,7 +2545,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2564,7 +2564,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.TypeExtensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2583,7 +2583,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2602,7 +2602,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Reader.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2621,7 +2621,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.ResourceManager.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2640,7 +2640,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Resources.Writer.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2659,7 +2659,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.Unsafe.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2678,7 +2678,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.CompilerServices.VisualC.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2697,7 +2697,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Extensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2716,7 +2716,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Handles.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2735,7 +2735,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.JavaScript.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2754,7 +2754,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.RuntimeInformation.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2773,7 +2773,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.InteropServices.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2792,7 +2792,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2811,7 +2811,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Loader.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2830,7 +2830,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Numerics.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2849,7 +2849,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Formatters.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2868,7 +2868,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Json.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2887,7 +2887,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2906,7 +2906,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2925,7 +2925,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.Serialization.Xml.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2944,7 +2944,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Runtime.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2963,7 +2963,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.AccessControl.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -2982,7 +2982,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Claims.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3001,7 +3001,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3020,7 +3020,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Cng.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3039,7 +3039,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Csp.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3058,7 +3058,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3077,7 +3077,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3096,7 +3096,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.Primitives.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3115,7 +3115,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3134,7 +3134,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Cryptography.X509Certificates.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3153,7 +3153,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3172,7 +3172,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.Windows.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3191,7 +3191,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.SecureString.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3210,7 +3210,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3229,7 +3229,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ServiceModel.Web.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3248,7 +3248,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ServiceProcess.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3267,7 +3267,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.CodePages.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3286,7 +3286,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.Extensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3305,7 +3305,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encoding.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3324,7 +3324,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Encodings.Web.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3343,7 +3343,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.Json.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3362,7 +3362,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Text.RegularExpressions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3381,7 +3381,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Channels.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3400,7 +3400,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Overlapped.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3419,7 +3419,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3438,7 +3438,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3457,7 +3457,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.Parallel.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3476,7 +3476,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Tasks.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3495,7 +3495,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Thread.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3514,7 +3514,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.ThreadPool.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3533,7 +3533,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.Timer.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3552,7 +3552,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Threading.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3571,7 +3571,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.Local.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3590,7 +3590,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Transactions.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3609,7 +3609,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.ValueTuple.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3628,7 +3628,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3647,7 +3647,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.HttpUtility.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3666,7 +3666,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Web.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3685,7 +3685,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Windows.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3704,7 +3704,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Linq.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3723,7 +3723,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.ReaderWriter.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3742,7 +3742,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.Serialization.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3761,7 +3761,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3780,7 +3780,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XDocument.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3799,7 +3799,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XmlDocument.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3818,7 +3818,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XmlSerializer.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3837,7 +3837,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3856,7 +3856,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XPath.XDocument.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3875,7 +3875,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\WindowsBase.wasm",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3894,7 +3894,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\004lhyigv3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3913,7 +3913,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\03qvuff3l0.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3932,7 +3932,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\054ogr80k2.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3951,7 +3951,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\07wst2unob.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3970,7 +3970,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\0snea6uzyz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -3989,7 +3989,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\0ycoqwa21u.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4008,7 +4008,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\114b6ogysx.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4027,7 +4027,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\12xfuhjm0m.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4046,7 +4046,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\14aw4msiha.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4065,7 +4065,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\17y0pvg1w1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4084,7 +4084,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\18e0u7wvuv.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4103,7 +4103,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\1bzk49ryhk.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4122,7 +4122,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\1l0be12map.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4141,7 +4141,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\1ngdqvqm8v.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4160,7 +4160,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\1r2cps2pcv.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4179,7 +4179,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\1y2ws53kdc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4198,7 +4198,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\23db7hrvqg.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4217,7 +4217,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\23w93bvmhr.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4236,7 +4236,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\2akco2oafk.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4255,7 +4255,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\2aonu9ylq3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4274,7 +4274,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\2jez1ocbc6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4293,7 +4293,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\2utwrvairl.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4311,27 +4311,8 @@
       "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Drawing.wasm"
     },
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3247qjx4c4.gz",
-      "SourceId": "AutoSzereloUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/AutoSzereloUI.wasm.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.wasm",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.wasm"
-    },
-    {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\32y73xj3c4.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4350,7 +4331,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3f3sqfph0s.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4369,7 +4350,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3s7ssvcsly.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4388,7 +4369,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3u23vjc6je.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4407,7 +4388,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3x9udrcu3j.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4426,7 +4407,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\3y7nymlu38.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4445,7 +4426,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\4056ud7m5t.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4464,7 +4445,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\40oze7502x.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4483,7 +4464,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\4cuq5kjneo.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4502,7 +4483,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\4kxqm9vqka.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4521,7 +4502,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\56e9zrbwvs.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4540,7 +4521,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\5pxxh7947z.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4559,7 +4540,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\5q6hj7bbo5.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4578,7 +4559,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\6716nhph5l.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4597,7 +4578,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\6hpo9yrgd7.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4616,7 +4597,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\6i7v2zbg3j.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4635,7 +4616,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\6m185qt5hq.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4654,7 +4635,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\6w50rsrugl.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4673,7 +4654,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\75lwazv78u.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4692,7 +4673,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\77840mxij2.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4711,7 +4692,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\7qgmj33rrj.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4730,7 +4711,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\8f0wm1upgw.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4749,7 +4730,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\99fleddy6w.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4768,7 +4749,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\9bl83a3dp6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4787,7 +4768,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\9chsvblwxj.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4806,7 +4787,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\9lsbrmknlv.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4825,7 +4806,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\9slw6doi5r.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4844,7 +4825,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\9xujxry4q6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4863,7 +4844,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\a20gptyrg9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4882,7 +4863,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\a5nk7vz2id.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4901,7 +4882,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\amodhjqzk3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4920,7 +4901,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\arqy7l5brg.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4939,7 +4920,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\asamkfyyh6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4958,7 +4939,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\au9toqvm2h.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4977,7 +4958,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\awu8j2r3s5.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -4996,7 +4977,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ba8jfam16z.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5015,7 +4996,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\bfsr820s5m.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5034,7 +5015,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\bis88zk3re.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5052,27 +5033,8 @@
       "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Configuration.Json.wasm"
     },
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\blcf87y5m1.gz",
-      "SourceId": "AutoSzereloUI",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/AutoSzereloUI.pdb.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.pdb",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzereloUI.pdb"
-    },
-    {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\boqn23mte0.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5091,7 +5053,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\bu2thyhwsq.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5110,7 +5072,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\c8ajuaid3d.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5129,7 +5091,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\c97tmu0eiw.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5148,7 +5110,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\cclusogqo8.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5167,7 +5129,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\cjqel6gt42.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5186,7 +5148,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\cpghoacaa4.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5205,7 +5167,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\cra0xgaj39.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5224,7 +5186,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\crdubj81y8.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5243,7 +5205,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\d4hpjrnhim.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5262,7 +5224,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\d9fr83fn60.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5281,7 +5243,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dcu1g7zw5q.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5300,7 +5262,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dhwb72s8r7.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5319,7 +5281,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\djexpskdgp.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5338,7 +5300,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\do4swolssz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5357,7 +5319,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dpuxauqz6r.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5376,7 +5338,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dr3ilvhdei.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5395,7 +5357,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dstq30g4x9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5414,7 +5376,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dt0r6fz4e6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5433,7 +5395,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dtio5h3xzc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5452,7 +5414,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\dyxpedxlhk.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5471,7 +5433,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ecnvg1hnfw.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5490,7 +5452,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\edrxf0db6k.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5509,7 +5471,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ej19dpjti1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5528,7 +5490,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\eua7osf0mb.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5547,7 +5509,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\f74hzzy5r1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5566,7 +5528,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\f8yvlvjkte.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5585,7 +5547,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\fdfrd8s6sk.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5604,7 +5566,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\fr4sdvqimf.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5623,7 +5585,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\fveyapdap7.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5642,7 +5604,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\g9swzf5vw4.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5661,7 +5623,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ghzen02jw5.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5680,7 +5642,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\gnc9t2bup7.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5699,7 +5661,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\gqsut2fef8.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5718,7 +5680,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\gsrebru2eq.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5737,7 +5699,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\h1z0w7qn6m.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5756,7 +5718,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\h4rm6ok1sz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5775,7 +5737,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\hb4twqpgnk.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5794,7 +5756,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\hf2kwge9mx.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5813,7 +5775,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\hr33s61f32.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5832,7 +5794,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\htcsh6ow2b.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5851,7 +5813,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\hwg49p5ayq.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5870,7 +5832,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\hwh5j45vm9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5889,7 +5851,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\i21i42ht9l.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5908,7 +5870,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\i4alaqh922.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5927,7 +5889,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\i7pqtpegxn.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5946,7 +5908,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ic5x8fj3ju.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5965,7 +5927,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\icv6ocbdd4.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -5984,7 +5946,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ioawkzjtbj.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6003,7 +5965,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\j9t641y080.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6022,7 +5984,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\jjiajadsni.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6041,7 +6003,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\jl0p9hhpnf.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6060,7 +6022,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\jlsk7ylqkc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6079,7 +6041,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\jr4c5mwmn5.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6098,7 +6060,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\kcjiuniqh8.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6117,7 +6079,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\knti59ew70.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6136,7 +6098,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\kxkudm471r.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6155,7 +6117,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\l1sabjafd6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6174,7 +6136,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\l69yfws72i.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6192,8 +6154,27 @@
       "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Claims.wasm"
     },
     {
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\lkg3mah5b8.gz",
+      "SourceId": "AutoSzerelo.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoSzerelo.UI.wasm.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.wasm",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.wasm"
+    },
+    {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\lqzd3r21u0.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6212,7 +6193,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m2emj7d7ia.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6231,7 +6212,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m2hvyj0qcu.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6250,7 +6231,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m3u3vmhf8y.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6269,7 +6250,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m63ahs6epm.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6288,7 +6269,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m6q8iyziit.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6307,7 +6288,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\m8i7xvv702.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6326,7 +6307,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\md0p0ygn45.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6345,7 +6326,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\mggk3i96j0.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6364,7 +6345,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\mni4g4kkep.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6383,7 +6364,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ms12463oeh.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6402,7 +6383,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\msh21u0efa.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6421,7 +6402,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\mx8d1mbowp.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6440,7 +6421,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\mzh0653bog.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6459,7 +6440,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\nbblfok6o1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6478,7 +6459,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\nglg92ff5e.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6497,7 +6478,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\norhqmjuo0.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6516,7 +6497,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\nta4x5fdo9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6535,7 +6516,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\nx53omrf52.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6554,7 +6535,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\nz1drposit.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6573,7 +6554,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\o14laa2kr3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6592,7 +6573,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\o57apip2mc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6611,7 +6592,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ok6osl8aob.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6630,7 +6611,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\oyzrb0u6q6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6649,7 +6630,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\p78kxj4nrg.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6668,7 +6649,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\pck325vjfe.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6687,7 +6668,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\pnjqs5b3g3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6706,7 +6687,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\przahe7uj6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6725,7 +6706,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\pvrzxusk4w.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6744,7 +6725,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\pwianx1p5i.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6763,7 +6744,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\q5x2gemfva.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6782,7 +6763,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qg1kaznnkg.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6801,7 +6782,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qjlxxmhuwn.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6820,7 +6801,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qn8hoavojj.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6839,7 +6820,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qome5346ok.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6858,7 +6839,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qqtf9r7wl7.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6877,7 +6858,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qs9meahyna.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6896,7 +6877,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qxfyoi87gz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6915,7 +6896,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\qzed13xjps.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6934,7 +6915,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\r1ahksp8mc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6953,7 +6934,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rdel972etv.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6972,7 +6953,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rhu260muuj.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -6991,7 +6972,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rpmckdu2r6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7010,7 +6991,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rprn1bp1we.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7029,7 +7010,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rz3jv915z9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7048,7 +7029,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\sglmf8w783.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7067,7 +7048,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\stqb8hzyfb.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7086,7 +7067,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\t536xtzddz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7105,7 +7086,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\t74vqyofpz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7124,7 +7105,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\t7ip1sh53e.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7143,7 +7124,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\thwve3s1up.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7162,7 +7143,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\u0rv3tahon.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7181,7 +7162,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\u8uszy12bz.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7200,7 +7181,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ua8mfpbrlh.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7219,7 +7200,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ubrktd37uo.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7238,7 +7219,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\udaetvsu3j.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7257,7 +7238,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\uova1dvla6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7276,7 +7257,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\uu2uat9pll.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7295,7 +7276,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\v5n1q0by1t.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7314,7 +7295,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\v8ilp64te3.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7333,7 +7314,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\vhijl4pnqx.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7352,7 +7333,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\vnyl4fs4j2.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7371,7 +7352,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\vxsif6am8a.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7390,7 +7371,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\vyie659akn.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7409,7 +7390,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wca0u647pf.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7428,7 +7409,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wdk3cdy0id.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7447,7 +7428,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wmkxe37nq9.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7466,7 +7447,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wmrza002jv.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7485,7 +7466,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\woyri0q1i1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7504,7 +7485,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wpwujftmvi.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7523,7 +7504,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\wy3cn5bev1.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7542,7 +7523,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\xno2k34hsb.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7561,7 +7542,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\y00b8tkt27.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7580,7 +7561,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\ya4ss7a8fi.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7598,8 +7579,27 @@
       "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.wasm"
     },
     {
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\yczlvxfnvk.gz",
+      "SourceId": "AutoSzerelo.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/AutoSzerelo.UI.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\AutoSzerelo.UI.pdb"
+    },
+    {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\yjrovuhme6.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7618,7 +7618,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\yn2rldcbxc.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7637,7 +7637,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\yp5gdgr5qg.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7656,7 +7656,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\yzvun9yf0a.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7675,7 +7675,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\z1vktqukir.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7694,7 +7694,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\z7iyw6meay.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7713,7 +7713,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\zdmmpjsepl.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7732,7 +7732,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\zqy3ku4din.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7751,7 +7751,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\zsshv23v7t.gz",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\",
       "BasePath": "/",
@@ -7769,12 +7769,12 @@
       "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Reflection.Emit.wasm"
     },
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoSzereloUI.styles.css",
-      "SourceId": "AutoSzereloUI",
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoSzerelo.UI.styles.css",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "/",
-      "RelativePath": "AutoSzereloUI.styles.css",
+      "RelativePath": "AutoSzerelo.UI.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -7785,15 +7785,15 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoSzereloUI.styles.css"
+      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoSzerelo.UI.styles.css"
     },
     {
-      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoSzereloUI.bundle.scp.css",
-      "SourceId": "AutoSzereloUI",
+      "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoSzerelo.UI.bundle.scp.css",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Computed",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "/",
-      "RelativePath": "AutoSzereloUI.bundle.scp.css",
+      "RelativePath": "AutoSzerelo.UI.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -7804,11 +7804,11 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoSzereloUI.bundle.scp.css"
+      "OriginalItemSpec": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AutoSzerelo.UI.bundle.scp.css"
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\app.css",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7827,7 +7827,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7846,7 +7846,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7865,7 +7865,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\favicon.png",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7884,7 +7884,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\icon-192.png",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7903,7 +7903,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\index.html",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
@@ -7922,7 +7922,7 @@
     },
     {
       "Identity": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\sample-data\\weather.json",
-      "SourceId": "AutoSzereloUI",
+      "SourceId": "AutoSzerelo.UI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\",
       "BasePath": "/",
