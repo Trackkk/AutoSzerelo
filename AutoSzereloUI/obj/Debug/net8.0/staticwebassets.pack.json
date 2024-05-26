@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\compressed\\rz3jv915z9.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\obj\\Debug\\net8.0\\scopedcss\\bundle\\AutoSzereloUI.styles.css",
+      "PackagePath": "staticwebassets\\AutoSzereloUI.styles.css"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloUI\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AutoSzereloUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AutoSzereloUI.props",
+      "PackagePath": "build\\AutoSzereloUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AutoSzereloUI.props",
+      "PackagePath": "buildMultiTargeting\\AutoSzereloUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AutoSzereloUI.props",
+      "PackagePath": "buildTransitive\\AutoSzereloUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

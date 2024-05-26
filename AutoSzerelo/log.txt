@@ -1,0 +1,38 @@
+2024-05-25 18:14:38.163 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-25 18:14:38.241 +02:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-05-25 18:14:38.246 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-05-25 18:14:38.250 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-05-25 18:14:38.260 +02:00 [INF] Applying migration '20240525155817_Initial'.
+2024-05-25 18:14:38.276 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Kliensek" (
+    "KliensId" TEXT NOT NULL CONSTRAINT "PK_Kliensek" PRIMARY KEY,
+    "KliensNev" TEXT NOT NULL,
+    "Lakcim" TEXT NOT NULL,
+    "Email" TEXT NOT NULL
+);
+2024-05-25 18:14:38.278 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Munkak" (
+    "MunkaId" TEXT NOT NULL CONSTRAINT "PK_Munkak" PRIMARY KEY,
+    "KliensId" TEXT NOT NULL,
+    "Rendszam" TEXT NOT NULL,
+    "GyartasiEv" TEXT NOT NULL,
+    "Leiras" TEXT NOT NULL,
+    "HibaSulyossaga" INTEGER NOT NULL,
+    "Allapot" INTEGER NOT NULL,
+    "MKategoria" INTEGER NOT NULL,
+    CONSTRAINT "FK_Munkak_Kliens_KliensId" FOREIGN KEY ("KliensId") REFERENCES "Kliensek" ("KliensId") ON DELETE CASCADE
+);
+2024-05-25 18:14:38.279 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_Munkaka_KlientId" ON "Munkak" ("KliensId");
+2024-05-25 18:14:38.280 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20240525155817_Initial', '8.0.5');

@@ -1,0 +1,12 @@
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\bin\Debug\net8.0\AutoSzereloShared.deps.json
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\bin\Debug\net8.0\AutoSzereloShared.dll
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\bin\Debug\net8.0\AutoSzereloShared.pdb
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.GeneratedMSBuildEditorConfig.editorconfig
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.AssemblyInfoInputs.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.AssemblyInfo.cs
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.csproj.CoreCompileInputs.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.sourcelink.json
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.dll
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\refint\AutoSzereloShared.dll
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\AutoSzereloShared.pdb
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzereloShared\obj\Debug\net8.0\ref\AutoSzereloShared.dll
