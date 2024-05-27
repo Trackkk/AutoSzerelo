@@ -24,17 +24,32 @@ namespace AutoSzerelo.UI.Services
 
         public async Task<IEnumerable<Kliens>> GetAllClientAsync()
         {
-            return await _httpClient.GetFromJsonAsync<IEnumerable<Kliens>>("/kliens");
+            var eredmeny = await _httpClient.GetFromJsonAsync<IEnumerable<Kliens>>("/kliens");
+            if (eredmeny != null)
+            {
+                return eredmeny;
+            }
+            throw new Exception("A válasz üres");
         }
 
         public async Task<Kliens> GetClientAsync(Guid id)
         {
-            return await _httpClient.GetFromJsonAsync<Kliens>($"/kliens/{id}");
+            var eredmeny =  await _httpClient.GetFromJsonAsync<Kliens>($"/kliens/{id}");
+            if (eredmeny != null)
+            {
+                return eredmeny;
+            }
+            throw new Exception("A válasz üres");
         }
 
         public async Task<IEnumerable<Munka>> GetJobsOfClientAsync(Guid kliensId)
         {
-            return await _httpClient.GetFromJsonAsync<IEnumerable<Munka>>($"/kliens/{kliensId}/munka");
+            var eredmeny = await _httpClient.GetFromJsonAsync<IEnumerable<Munka>>($"/kliens/{kliensId}/munka");
+            if (eredmeny != null)
+            {
+                return eredmeny;
+            }
+            throw new Exception("A válasz üres");
         }
 
         public async Task UpdateClientAsync(Guid id, Kliens kliens)

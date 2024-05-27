@@ -17,7 +17,7 @@ namespace AutoSzerelo.Shared
 
         [Required]
         [RegularExpression(@"^[A-Z]{3}-[0-9]{3}$")]
-        public string Rendszam { get; set; }
+        public string? Rendszam { get; set; }
 
         [Required]
         [DatumTartomany]
@@ -25,7 +25,7 @@ namespace AutoSzerelo.Shared
 
         [Required]
         [MaxLength(1000)]
-        public string Leiras { get; set; }
+        public string? Leiras { get; set; }
 
         [Required]
         [Range(1, 10)]
@@ -92,6 +92,10 @@ namespace AutoSzerelo.Shared
             double hibasulyossag = Sulyossag();
 
             return kategoria * kor * hibasulyossag;
+        }
+        public MunkaAllapot AktualisAllapot()
+        {
+            return Allapot;
         }
     }
 }

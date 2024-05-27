@@ -12,34 +12,45 @@ namespace AutoSzerelo.UI.Services
             _httpClient = httpClient;
         }
 
-        public async Task AddJobAsync(Munka munka)
+        public Task AddJobAsync(Munka munka)
         {
-            await _httpClient.PostAsJsonAsync("/munka", munka);
+            return _httpClient.PostAsJsonAsync("/munka", munka);
         }
 
-        public async Task DeleteJobAsync(Guid id)
+        public Task DeleteJobAsync(Guid id)
         {
-            await _httpClient.DeleteAsync($"/munka/{id}");
+            return _httpClient.DeleteAsync($"/munka/{id}");
         }
 
         public async Task<IEnumerable<Munka>> GetAllJobAsync()
         {
-            return await _httpClient.GetFromJsonAsync<IEnumerable<Munka>>("/munka");
+            var eredmeny = await _httpClient.GetFromJsonAsync<IEnumerable<Munka>>("/munka");
+            if (eredmeny != null)
+            {
+                return eredmeny;
+            }
+            throw new Exception("A válasz üres");
         }
+
 
         public async Task<Munka> GetJobAsync(Guid id)
         {
-            return await _httpClient.GetFromJsonAsync<Munka>($"/munka/{id}");
+            var eredmeny = await _httpClient.GetFromJsonAsync<Munka>($"/munka/{id}");
+            if (eredmeny != null)
+            {
+                return eredmeny;
+            }
+            throw new Exception("A válasz üres.");
         }
 
-        public async Task<IEnumerable<Munka>> GetJobsOfClientAsync(Guid clientId)
+        public Task<IEnumerable<Munka>?> GetJobsOfClientAsync(Guid clientId)
         {
-            return await _httpClient.GetFromJsonAsync<IEnumerable<Munka>>($"/kliens/{clientId}/munka");
+            return _httpClient.GetFromJsonAsync<IEnumerable<Munka>>($"/kliens/{clientId}/munka");
         }
 
-        public async Task UpdateJobAsync(Guid id, Munka munka)
+        public Task UpdateJobAsync(Guid id, Munka munka)
         {
-            await _httpClient.PutAsJsonAsync($"/munka/{id}", munka);
+            return _httpClient.PutAsJsonAsync($"/munka/{id}", munka);
         }
     }
 }

@@ -43,9 +43,13 @@
     <div class="mb-3">
         <label class="form-label">Állapot</label>
         <InputSelect @bind-Value="Munka.Allapot" class="form-input">
-            @foreach (var value in Enum.GetValues(typeof(Munka.MunkaAllapot)))
+            @foreach (Munka.MunkaAllapot value in Enum.GetValues(typeof(Munka.MunkaAllapot)))
             {
-                <option value="@value">@value</option>
+                var actualState = Munka.AktualisAllapot();
+                if (value >= actualState)
+                {
+                    <option value="@value">@value</option>
+                }
             }
         </InputSelect>
         <ValidationMessage For="() => Munka.Allapot" />
@@ -67,7 +71,7 @@
 
 @code {
     [Parameter]
-    public Munka Munka { get; set; }
+    public Munka? Munka { get; set; }
 
     private IEnumerable<Kliens> Kliensek { get; set; } = new List<Kliens>();
 
@@ -85,8 +89,8 @@
     }
 
     [Parameter]
-    public Func<Task> OnValidSubmit { get; set; }
+    public Func<Task>? OnValidSubmit { get; set; }
 
     [Parameter]
-    public string ButtonText { get; set; }
+    public string? ButtonText { get; set; }
 }

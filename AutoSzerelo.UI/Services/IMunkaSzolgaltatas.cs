@@ -12,6 +12,6 @@ namespace AutoSzerelo.UI.Services
 
         Task<IEnumerable<Munka>> GetAllJobAsync();
 
-        Task UpdateJobAsync(Guid id, Munka job);
+        Task UpdateJobAsync(Guid id, Munka munka);
     }
 }

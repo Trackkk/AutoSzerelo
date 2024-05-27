@@ -34,7 +34,14 @@ else
 
     private async Task UpdateAsync()
     {
-        await KliensSzolgaltatas.UpdateClientAsync(KliensId, Kliens);
-        NavigationManager.NavigateTo("/kliens/lista");
+        if (Kliens != null)
+        {
+            await KliensSzolgaltatas.UpdateClientAsync(KliensId, Kliens);
+            NavigationManager.NavigateTo("/kliens/lista");
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/");
+        }
     }
 }

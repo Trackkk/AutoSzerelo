@@ -11,8 +11,8 @@ namespace AutoSzerelo.UI.Services
 
         Task<IEnumerable<Kliens>> GetAllClientAsync();
 
-        Task UpdateClientAsync(Guid id, Kliens person);
+        Task UpdateClientAsync(Guid id, Kliens kliens);
 
-        Task<IEnumerable<Munka>> GetJobsOfClientAsync(Guid clientId);
+        Task<IEnumerable<Munka>> GetJobsOfClientAsync(Guid kliensId);
     }
 }

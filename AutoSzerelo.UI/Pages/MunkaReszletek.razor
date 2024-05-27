@@ -17,10 +17,10 @@ else
 }
 
 @code {
-    
+
     [Parameter]
     public Guid MunkaId{ get; set; }
-    
+
     private Munka? Munka { get; set; }
 
     private IEnumerable<Kliens>? Kliensek { get; set; }
@@ -39,7 +39,15 @@ else
 
     private async Task UpdateAsync()
     {
-        await MunkaSzolgaltatas.UpdateJobAsync(MunkaId, Munka);
-        NavigationManager.NavigateTo("/munka/lista");
+        if (Munka != null)
+        {
+            await MunkaSzolgaltatas.UpdateJobAsync(MunkaId, Munka);
+            NavigationManager.NavigateTo("/munka/lista");
+        }
+        else
+        {
+            NavigationManager.NavigateTo("/");
+        }
+
     }
 }

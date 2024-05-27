@@ -24,11 +24,12 @@
 
 @code {
     [Parameter]
-    public Kliens Kliens { get; set; }
+    public Kliens? Kliens { get; set; }
 
     [Parameter]
-    public Func<Task> OnValidSubmit { get; set; }
+    public Func<Task>? OnValidSubmit { get; set; }
 
     [Parameter]
-    public string ButtonText { get; set; }
+    public string? ButtonText { get; set; }
 }
+
