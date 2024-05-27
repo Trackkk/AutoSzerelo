@@ -1,0 +1,45 @@
+﻿@page "/munka/{MunkaId:guid}"
+@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Components
+@using AutoSzerelo.UI.Services
+@inject IMunkaSzolgaltatas MunkaSzolgaltatas
+@inject IKliensSzolgaltatas KliensSzolgaltatas
+@inject NavigationManager NavigationManager
+
+@if (Munka is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <MunkaForm Munka="Munka" OnValidSubmit="UpdateAsync" ButtonText="Munka frissítése" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Törlés</button>
+}
+
+@code {
+    
+    [Parameter]
+    public Guid MunkaId{ get; set; }
+    
+    private Munka? Munka { get; set; }
+
+    private IEnumerable<Kliens>? Kliensek { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Munka = await MunkaSzolgaltatas.GetJobAsync(MunkaId);
+        Kliensek = await KliensSzolgaltatas.GetAllClientAsync();
+    }
+
+    private async Task DeleteAsync()
+    {
+        await MunkaSzolgaltatas.DeleteJobAsync(MunkaId);
+        NavigationManager.NavigateTo("/munka/lista");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await MunkaSzolgaltatas.UpdateJobAsync(MunkaId, Munka);
+        NavigationManager.NavigateTo("/munka/lista");
+    }
+}

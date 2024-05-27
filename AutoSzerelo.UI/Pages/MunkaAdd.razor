@@ -1,0 +1,20 @@
+﻿@page "/munka/add"
+@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Services
+@using AutoSzerelo.UI.Components
+@inject IMunkaSzolgaltatas MunkaSzolgaltatas
+@inject NavigationManager NavigationManager
+
+<h3>Munka létrehozó</h3>
+
+<MunkaForm Munka="Munka" OnValidSubmit="AddJobAsync" ButtonText="Munka hozzáadás" />
+
+@code {
+    private Munka Munka { get; set; } = new();
+
+    private async Task AddJobAsync()
+    {
+        await MunkaSzolgaltatas.AddJobAsync(Munka);
+        NavigationManager.NavigateTo("/munka/lista");
+    }
+}

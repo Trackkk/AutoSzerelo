@@ -10,16 +10,16 @@ namespace AutoSzerelo.Shared
         public Guid KliensId { get; set; }
 
         [Required]
-        [RegularExpression(@"\S")]
+        [RegularExpression(@".*\S.*")]
         public string KliensNev {get; set; }
 
         [Required]
-        [RegularExpression(@"\S")]
+        [RegularExpression(@".*\S.*")]
         public string Lakcim { get; set; }
 
         [Required]
         [EmailAddress]
-        [RegularExpression(@"\S")]
+        [RegularExpression(@".*\S.*")]
         public string Email { get; set; }
     }
 }

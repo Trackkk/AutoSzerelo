@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo", "AutoSzerelo\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo.Shared", "AutoSzereloShared\AutoSzerelo.Shared.csproj", "{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo.UI", "AutoSzereloUI\AutoSzerelo.UI.csproj", "{CDB9486D-833A-4538-BD26-7D47C52F9061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoSzerelo.UI", "AutoSzerelo.UI\AutoSzerelo.UI.csproj", "{BA717246-066B-4E43-B9D5-7D3C9826829E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CDB9486D-833A-4538-BD26-7D47C52F9061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CDB9486D-833A-4538-BD26-7D47C52F9061}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CDB9486D-833A-4538-BD26-7D47C52F9061}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CDB9486D-833A-4538-BD26-7D47C52F9061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA717246-066B-4E43-B9D5-7D3C9826829E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA717246-066B-4E43-B9D5-7D3C9826829E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA717246-066B-4E43-B9D5-7D3C9826829E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA717246-066B-4E43-B9D5-7D3C9826829E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,54 @@
+﻿@page "/munka/lista"
+@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Services
+@inject IMunkaSzolgaltatas MunkaSzolgaltatas
+
+<h3>Munkák</h3>
+
+@if (Munkak is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Rendszám</th>
+                <th>Gyártási idő</th>
+                <th>Kategória</th>
+                <th>Leírás</th>
+                <th>Hiba súlyossága</th>
+                <th>Állapot</th>
+                <th>Munkaóra esztimáció</th>
+                <th>Részletek</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @foreach (var munka in Munkak)
+            {
+                <tr>
+                    <td>@munka.Rendszam</td>
+                    <td>@munka.GyartasiEv.Year / @munka.GyartasiEv.Month / @munka.GyartasiEv.Day</td>
+                    <td>@munka.MKategoria</td>
+                    <td>@munka.Leiras</td>
+                    <td>@munka.HibaSulyossaga</td>
+                    <td>@munka.Allapot</td>
+                    <td>@Math.Round(munka.MunkaoraEsztimacio(), 2)</td>
+                    <td><a href="/munka/@munka.MunkaId" class="btn btn-primary">Módosítás</a></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+    private IEnumerable<Munka>? Munkak { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Munkak = await MunkaSzolgaltatas.GetAllJobAsync();
+    }
+}

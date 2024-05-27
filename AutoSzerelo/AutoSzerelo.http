@@ -1,6 +1,0 @@
-@AutoSzerelo_HostAddress = http://localhost:5201
-
-GET {{AutoSzerelo_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

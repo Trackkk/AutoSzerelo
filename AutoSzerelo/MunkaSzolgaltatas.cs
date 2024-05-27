@@ -14,18 +14,18 @@ namespace AutoSzerelo
             _context = context;
         }
 
-        public async Task Add(Munka job)
+        public async Task Add(Munka munka)
         {
             try
             {
-                await _context.Munkak.AddAsync(job);
+                await _context.Munkak.AddAsync(munka);
                 await _context.SaveChangesAsync();
 
-                _logger.LogInformation("Munka sikeresen hozzáadva: {@MunkaId}", job.MunkaId);
+                _logger.LogInformation("Munka sikeresen hozzáadva: {@MunkaId}", munka.MunkaId);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Hiba történt a munka hozzáadása során: {@MunkaId}", job.MunkaId);
+                _logger.LogError(ex, "Hiba történt a munka hozzáadása során: {@MunkaId}", munka.MunkaId);
                 throw;
             }
         }
@@ -34,10 +34,10 @@ namespace AutoSzerelo
         {
             try
             {
-                var job = await Get(id);
-                _context.Munkak.Remove(job);
+                var munka = await Get(id);
+                _context.Munkak.Remove(munka);
                 await _context.SaveChangesAsync();
-                _logger.LogInformation("Munka sikeresen törölve: {@MunkaId}", job.MunkaId);
+                _logger.LogInformation("Munka sikeresen törölve: {@MunkaId}", munka.MunkaId);
             }
             catch (Exception ex)
             {
@@ -50,9 +50,9 @@ namespace AutoSzerelo
         {
             try
             {
-                var job = await _context.Munkak.FindAsync(id);
+                var munka = await _context.Munkak.FindAsync(id);
                 _logger.LogInformation("Munka sikeresen lekérve: {@MunkaId}", id);
-                return job;
+                return munka;
             }
             catch (Exception ex)
             {

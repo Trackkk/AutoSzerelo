@@ -1,0 +1,92 @@
+﻿@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Services
+@inject IKliensSzolgaltatas KliensSzolgaltatas
+
+<EditForm Model="Munka" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+
+    <div class="mb-3">
+        <label class="form-label">Kliens</label>
+        <InputSelect @bind-Value="Munka.KliensId" class="form-input">
+            @foreach (var kliens in Kliensek)
+            {
+                <option value="@kliens.KliensId">@kliens.KliensNev</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Munka.KliensId" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Rendszám</label>
+        <InputText @bind-Value="Munka.Rendszam" class="form-input" />
+        <ValidationMessage For="() => Munka.Rendszam" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Gyártási év</label>
+        <InputDate @bind-Value="Munka.GyartasiEv" class="form-input" />
+        <ValidationMessage For="() => Munka.GyartasiEv" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Leírás</label>
+        <InputTextArea @bind-Value="Munka.Leiras" class="form-input" />
+        <ValidationMessage For="() => Munka.Leiras" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Hiba Súlyossága</label>
+        <InputNumber @bind-Value="Munka.HibaSulyossaga" class="form-input" />
+        <ValidationMessage For="() => Munka.HibaSulyossaga" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Állapot</label>
+        <InputSelect @bind-Value="Munka.Allapot" class="form-input">
+            @foreach (var value in Enum.GetValues(typeof(Munka.MunkaAllapot)))
+            {
+                <option value="@value">@value</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Munka.Allapot" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Kategória</label>
+        <InputSelect @bind-Value="Munka.MKategoria" class="form-input">
+            @foreach (var kategoria in Enum.GetValues(typeof(Munka.MunkaKategoria)))
+            {
+                <option value="@kategoria">@kategoria</option>
+            }
+        </InputSelect>
+        <ValidationMessage For="() => Munka.MKategoria" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">@ButtonText</button>
+</EditForm>
+
+@code {
+    [Parameter]
+    public Munka Munka { get; set; }
+
+    private IEnumerable<Kliens> Kliensek { get; set; } = new List<Kliens>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Kliensek = (await KliensSzolgaltatas.GetAllClientAsync()).ToList();
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (OnValidSubmit != null)
+        {
+            await OnValidSubmit();
+        }
+    }
+
+    [Parameter]
+    public Func<Task> OnValidSubmit { get; set; }
+
+    [Parameter]
+    public string ButtonText { get; set; }
+}

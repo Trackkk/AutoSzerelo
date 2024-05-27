@@ -1,0 +1,7 @@
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.csproj.AssemblyReference.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.AssemblyInfoInputs.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.AssemblyInfo.cs
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.csproj.CoreCompileInputs.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.MvcApplicationPartsAssemblyInfo.cache
+D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo.UI\obj\Debug\net8.0\AutoSzereloUI.sourcelink.json

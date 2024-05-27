@@ -1,0 +1,47 @@
+﻿@page "/kliens/lista"
+@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Services
+@inject IKliensSzolgaltatas KliensSzolgaltatas
+
+<h1>Kliens lista</h1>
+
+@if (Kliensek is null)
+{
+    <p>Loading...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Név</th>
+                <th>Lakcím</th>
+                <th>Email</th>
+                <th>Kliens leírása</th>
+                <th>Jobs of clients</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        @foreach (var kliens in Kliensek)
+        {
+            <tr>
+                <td>@kliens.KliensNev</td>
+                <td>@kliens.Lakcim</td>
+                <td>@kliens.Email</td>
+                <td><a href="/kliens/@kliens.KliensId" class="btn btn-primary">Részletek</a></td>
+                <td><a href="/kliens/@kliens.KliensId/munka" class="btn btn-light">Munkák</a></td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private IEnumerable<Kliens>? Kliensek { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Kliensek = await KliensSzolgaltatas.GetAllClientAsync();
+    }
+}

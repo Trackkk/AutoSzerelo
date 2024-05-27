@@ -1,0 +1,20 @@
+﻿@page "/kliens/add"
+@using AutoSzerelo.Shared
+@using AutoSzerelo.UI.Services
+@using AutoSzerelo.UI.Components
+@inject IKliensSzolgaltatas KliensSzolgaltatas
+@inject NavigationManager NavigationManager
+
+<h1>Uj kliens hozzáadása</h1>
+
+<KliensForm Kliens="Kliens" OnValidSubmit="AddClientAsync" ButtonText="Kliens hozzáadás" />
+
+@code {
+    private Kliens Kliens { get; set; } = new();
+
+    private async Task AddClientAsync()
+    {
+        await KliensSzolgaltatas.AddClientAsync(Kliens);
+        NavigationManager.NavigateTo("/kliens/lista");
+    }
+}

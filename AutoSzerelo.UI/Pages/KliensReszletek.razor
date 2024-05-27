@@ -1,0 +1,40 @@
+﻿@page "/kliens/{KliensId:guid}"
+@using AutoSzerelo.UI.Services
+@using AutoSzerelo.UI.Components
+@using AutoSzerelo.Shared
+@inject IKliensSzolgaltatas KliensSzolgaltatas
+@inject NavigationManager NavigationManager
+
+@if (Kliens is null)
+{
+    <p>Loading..</p>
+}
+else
+{
+    <KliensForm Kliens="Kliens" OnValidSubmit="UpdateAsync" ButtonText="Kliens frissítés" />
+    <button class="btn btn-warning" @onclick="DeleteAsync">Törlés</button>
+}
+
+@code {
+    [Parameter]
+    public Guid KliensId { get; set; }
+
+    private Kliens? Kliens { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        Kliens = await KliensSzolgaltatas.GetClientAsync(KliensId);
+    }
+
+    private async Task DeleteAsync()
+    {
+        await KliensSzolgaltatas.DeleteClientAsync(KliensId);
+        NavigationManager.NavigateTo("/kliens/lista");
+    }
+
+    private async Task UpdateAsync()
+    {
+        await KliensSzolgaltatas.UpdateClientAsync(KliensId, Kliens);
+        NavigationManager.NavigateTo("/kliens/lista");
+    }
+}
