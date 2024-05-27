@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "AutoSzerelo.UI",
   "resources": {
-    "hash": "sha256-S3nS73xZTAq+qyF/fSFSZz+ueU84Ht59Z6F0jyGhMIk=",
+    "hash": "sha256-SXdk2ed4Z+do91REELrCzOhNg+mlZlTWK2SLcStKnaU=",
     "jsModuleNative": {
       "dotnet.native.8.0.5.mx8d1mbowp.js": "sha256-boyHe+0RMZDkzBKGhsrnXPhPg3oZ6UqJnTUzngJPjNY="
     },
@@ -209,11 +209,11 @@
       "netstandard.wasm": "sha256-TbMssdnuTiKq1gjTPkpgROAuWN0uhvPnagvWR+wAgNs=",
       "System.Private.CoreLib.wasm": "sha256-sscg+Efk8ROPq+q4IVmhShzITuoOYvB8Bsc+Mp9vcSM=",
       "AutoSzerelo.Shared.wasm": "sha256-dLYCQAlFylDAL7GCg6Otg/Z7ua/RPi10i4ZbbHEDQKY=",
-      "AutoSzerelo.UI.wasm": "sha256-wQE2b+NftJJezOHiZjcqhv32ycCVSANRD4eRYdMgyGM="
+      "AutoSzerelo.UI.wasm": "sha256-uLxa8yFio/fHT2hm5GVnD2JrhzKl3rL0tY1MV0cHw9s="
     },
     "pdb": {
       "AutoSzerelo.Shared.pdb": "sha256-3l5lDTwGr/FZhv+8nUCxfCyIdAjdaX4uT6CBXkAxJpc=",
-      "AutoSzerelo.UI.pdb": "sha256-VYvqvdy/wuE9FDSH6QrRu28oLYkUKDp6iUOPwjSym6E="
+      "AutoSzerelo.UI.pdb": "sha256-e6XoHOyOJ1lG2iooMPXEVh+W8Nj8APrhTMT3wkSXwe4="
     }
   },
   "cacheBootResources": true,

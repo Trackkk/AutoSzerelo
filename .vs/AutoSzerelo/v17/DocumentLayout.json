@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}|AutoSzereloShared\\AutoSzerelo.Shared.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszereloshared\\munka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D4BAC02-D7E9-4960-A4D1-F1F5DA7DD217}|AutoSzereloShared\\AutoSzerelo.Shared.csproj|solutionrelative:autoszereloshared\\munka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo.ui\\components\\munkaform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|solutionrelative:autoszerelo.ui\\components\\munkaform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo.ui\\components\\kliensform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|solutionrelative:autoszerelo.ui\\components\\kliensform.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|d:\\egyetem\\c#vsstudio\\autoszerelo\\autoszerelo.ui\\pages\\munkaadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BA717246-066B-4E43-B9D5-7D3C9826829E}|AutoSzerelo.UI\\AutoSzerelo.UI.csproj|solutionrelative:autoszerelo.ui\\pages\\munkaadd.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,22 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MunkaForm.razor",
-              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Components\\MunkaForm.razor",
-              "RelativeDocumentMoniker": "AutoSzerelo.UI\\Components\\MunkaForm.razor",
-              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Components\\MunkaForm.razor",
-              "RelativeToolTip": "AutoSzerelo.UI\\Components\\MunkaForm.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T16:13:44.566Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -53,43 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "KliensForm.razor",
-              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Components\\KliensForm.razor",
-              "RelativeDocumentMoniker": "AutoSzerelo.UI\\Components\\KliensForm.razor",
-              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Components\\KliensForm.razor",
-              "RelativeToolTip": "AutoSzerelo.UI\\Components\\KliensForm.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T17:19:57.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MunkaAdd.razor",
-              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Pages\\MunkaAdd.razor",
-              "RelativeDocumentMoniker": "AutoSzerelo.UI\\Pages\\MunkaAdd.razor",
-              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzerelo.UI\\Pages\\MunkaAdd.razor",
-              "RelativeToolTip": "AutoSzerelo.UI\\Pages\\MunkaAdd.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T17:10:59.486Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Munka.cs",
-              "DocumentMoniker": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\Munka.cs",
-              "RelativeDocumentMoniker": "AutoSzereloShared\\Munka.cs",
-              "ToolTip": "D:\\egyeteM\\C#VsStudio\\AutoSzerelo\\AutoSzereloShared\\Munka.cs",
-              "RelativeToolTip": "AutoSzereloShared\\Munka.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwGIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T16:19:24.746Z",
-              "EditorCaption": ""
             }
           ]
         }

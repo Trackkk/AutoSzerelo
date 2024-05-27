@@ -1,6 +1,15 @@
 html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.nav-link-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link-icon span {
+    margin-left: 0.5rem;
+}
+
 
 h1:focus {
     outline: none;

@@ -8,6 +8,7 @@
     <div class="mb-3">
         <label class="form-label">Kliens</label>
         <InputSelect @bind-Value="Munka.KliensId" class="form-input">
+            <option value="">Válassz egy klienst</option>
             @foreach (var kliens in Kliensek)
             {
                 <option value="@kliens.KliensId">@kliens.KliensNev</option>
@@ -78,14 +79,6 @@
     protected override async Task OnInitializedAsync()
     {
         Kliensek = (await KliensSzolgaltatas.GetAllClientAsync()).ToList();
-    }
-
-    private async Task HandleValidSubmit()
-    {
-        if (OnValidSubmit != null)
-        {
-            await OnValidSubmit();
-        }
     }
 
     [Parameter]

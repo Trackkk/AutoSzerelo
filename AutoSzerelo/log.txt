@@ -3370,3 +3370,1160 @@ FROM "Munkak" AS "m"
 2024-05-27 19:19:05.931 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 3.938ms
 2024-05-27 19:19:05.932 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
 2024-05-27 19:19:05.933 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 8.8008ms
+2024-05-27 21:25:33.378 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 21:25:33.398 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:25:33.400 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:25:33.401 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 21:25:48.562 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:25:48.615 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:25:48.618 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 21:25:48.622 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:25:48.645 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:25:48.777 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:25:49.374 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:25:49.425 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:25:49.452 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 800.8422ms
+2024-05-27 21:25:49.453 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:25:49.455 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 905.7357ms
+2024-05-27 21:25:57.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:25:57.034 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:25:57.035 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:25:57.035 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:25:57.036 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:25:57.038 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:25:57.039 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:25:57.041 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 4.3143ms
+2024-05-27 21:25:57.042 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:25:57.043 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 15.4269ms
+2024-05-27 21:26:08.092 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:26:08.097 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:26:08.098 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:08.103 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:26:08.106 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:26:08.114 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:26:08.132 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:26:08.153 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 47.5277ms
+2024-05-27 21:26:08.156 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:08.158 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 66.137ms
+2024-05-27 21:26:10.352 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - null null
+2024-05-27 21:26:10.358 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:26:10.360 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:26:10.368 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:26:10.379 +02:00 [INF] Munka sikeresen lekérve: "1c88f578-4ee2-482e-bab5-455b2b4ef6f7"
+2024-05-27 21:26:10.382 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.MunkaProxy'.
+2024-05-27 21:26:10.386 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 16.8329ms
+2024-05-27 21:26:10.388 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:26:10.389 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - 200 null application/json; charset=utf-8 36.9391ms
+2024-05-27 21:26:10.395 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:26:10.396 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:26:10.397 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:10.397 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:26:10.399 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:26:10.400 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:26:10.401 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:26:10.402 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.2981ms
+2024-05-27 21:26:10.403 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:10.404 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 8.4357ms
+2024-05-27 21:26:10.408 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:26:10.409 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:26:10.410 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:10.410 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:26:10.412 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:26:10.413 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:26:10.414 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:26:10.415 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.0397ms
+2024-05-27 21:26:10.416 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:26:10.417 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 8.9702ms
+2024-05-27 21:30:20.384 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 21:30:20.408 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:30:20.409 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:30:20.410 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 21:30:22.793 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:30:22.829 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:22.832 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 21:30:22.835 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:22.849 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:30:22.922 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:30:23.472 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:30:23.530 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:23.566 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 711.5369ms
+2024-05-27 21:30:23.570 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:23.573 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 780.4424ms
+2024-05-27 21:30:26.935 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - null null
+2024-05-27 21:30:26.942 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:26.944 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:30:26.952 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:30:26.964 +02:00 [INF] Munka sikeresen lekérve: "1c88f578-4ee2-482e-bab5-455b2b4ef6f7"
+2024-05-27 21:30:26.967 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.MunkaProxy'.
+2024-05-27 21:30:26.973 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 18.3551ms
+2024-05-27 21:30:26.975 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:30:26.976 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - 200 null application/json; charset=utf-8 41.5538ms
+2024-05-27 21:30:26.982 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:26.986 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:26.986 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:26.989 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:26.992 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:27.000 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:27.010 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:27.012 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 21.7163ms
+2024-05-27 21:30:27.013 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:27.014 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 31.7274ms
+2024-05-27 21:30:27.027 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:27.030 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:27.030 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:27.031 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:27.032 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:27.033 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:27.034 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:27.035 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.2459ms
+2024-05-27 21:30:27.036 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:27.037 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 9.4149ms
+2024-05-27 21:30:35.836 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - null null
+2024-05-27 21:30:35.841 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:35.843 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - 204 null null 6.8272ms
+2024-05-27 21:30:35.846 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - null null
+2024-05-27 21:30:35.847 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:35.848 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:30:35.852 +02:00 [INF] Route matched with {action = "Delete", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:30:35.855 +02:00 [INF] Munka sikeresen lekérve: "1c88f578-4ee2-482e-bab5-455b2b4ef6f7"
+2024-05-27 21:30:35.856 +02:00 [INF] Munka sikeresen lekérve: "1c88f578-4ee2-482e-bab5-455b2b4ef6f7"
+2024-05-27 21:30:35.950 +02:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Munkak"
+WHERE "MunkaId" = @p0
+RETURNING 1;
+2024-05-27 21:30:35.966 +02:00 [INF] Munka sikeresen törölve: "1c88f578-4ee2-482e-bab5-455b2b4ef6f7"
+2024-05-27 21:30:35.971 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:30:35.974 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo) in 120.5465ms
+2024-05-27 21:30:35.975 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:30:35.976 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/munka/1c88f578-4ee2-482e-bab5-455b2b4ef6f7 - 200 0 null 130.213ms
+2024-05-27 21:30:36.006 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:30:36.009 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:36.009 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:36.010 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:30:36.011 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:30:36.012 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:30:36.014 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:36.014 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 3.5619ms
+2024-05-27 21:30:36.015 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:36.017 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 10.7537ms
+2024-05-27 21:30:36.966 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:36.969 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:36.969 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:36.970 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:36.971 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:36.972 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:36.975 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:36.976 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 5.0289ms
+2024-05-27 21:30:36.977 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:36.979 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 12.826ms
+2024-05-27 21:30:37.852 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:37.856 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:37.857 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:37.857 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:37.859 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:37.859 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:37.862 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:37.863 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 4.4466ms
+2024-05-27 21:30:37.864 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:37.865 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 13.0141ms
+2024-05-27 21:30:39.946 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - null null
+2024-05-27 21:30:39.953 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:39.954 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:30:39.959 +02:00 [INF] Route matched with {action = "Get", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Kliens]] Get(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:39.965 +02:00 [INF] Kliens lekérve: "a9fc1924-9e07-41a8-84a4-cb1acdba6add"
+2024-05-27 21:30:39.966 +02:00 [INF] Executing ObjectResult, writing value of type 'Castle.Proxies.KliensProxy'.
+2024-05-27 21:30:39.969 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo) in 6.5663ms
+2024-05-27 21:30:39.970 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:30:39.971 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - 200 null application/json; charset=utf-8 24.7289ms
+2024-05-27 21:30:40.823 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - null null
+2024-05-27 21:30:40.834 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:40.836 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - 204 null null 13.2237ms
+2024-05-27 21:30:40.854 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - null null
+2024-05-27 21:30:40.859 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:40.861 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:30:40.867 +02:00 [INF] Route matched with {action = "DeleteKliens", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKliens(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:40.870 +02:00 [INF] Kliens lekérve: "a9fc1924-9e07-41a8-84a4-cb1acdba6add"
+2024-05-27 21:30:40.872 +02:00 [INF] Kliens lekérve: "a9fc1924-9e07-41a8-84a4-cb1acdba6add"
+2024-05-27 21:30:40.905 +02:00 [INF] Executed DbCommand (24ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Kliensek"
+WHERE "KliensId" = @p0
+RETURNING 1;
+2024-05-27 21:30:41.123 +02:00 [INF] Kliens sikeresen törölve: {"LazyLoader":{"$type":"LazyLoader"},"KliensId":"a9fc1924-9e07-41a8-84a4-cb1acdba6add","KliensNev":"A","Lakcim":"lak","Email":"A@a","$type":"KliensProxy"}
+2024-05-27 21:30:41.161 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:30:41.241 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo) in 371.7044ms
+2024-05-27 21:30:41.244 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:30:41.245 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/kliens/a9fc1924-9e07-41a8-84a4-cb1acdba6add - 200 0 null 390.6396ms
+2024-05-27 21:30:41.271 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:41.288 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:41.288 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:41.289 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:41.292 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:41.293 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:41.297 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:41.298 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 6.3301ms
+2024-05-27 21:30:41.300 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:41.301 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 29.3589ms
+2024-05-27 21:30:44.067 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:44.070 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:44.071 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:44.073 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:44.077 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:44.078 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:44.079 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:44.080 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.9306ms
+2024-05-27 21:30:44.081 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:44.083 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 15.4014ms
+2024-05-27 21:30:44.932 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:44.937 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:44.937 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:44.938 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:44.940 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:44.941 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:44.942 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:44.943 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.3396ms
+2024-05-27 21:30:44.944 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:44.945 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 12.7164ms
+2024-05-27 21:30:46.217 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - null null
+2024-05-27 21:30:46.222 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:46.222 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:30:46.223 +02:00 [INF] Route matched with {action = "Get", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Kliens]] Get(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:46.224 +02:00 [INF] Kliens lekérve: "f07fc107-9459-4cf3-af81-51b4bde079df"
+2024-05-27 21:30:46.225 +02:00 [INF] Executing ObjectResult, writing value of type 'Castle.Proxies.KliensProxy'.
+2024-05-27 21:30:46.226 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo) in 1.6536ms
+2024-05-27 21:30:46.227 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:30:46.228 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - 200 null application/json; charset=utf-8 10.5437ms
+2024-05-27 21:30:47.188 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - null null
+2024-05-27 21:30:47.199 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:47.202 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - 204 null null 14.501ms
+2024-05-27 21:30:47.205 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - null null
+2024-05-27 21:30:47.207 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:47.208 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:30:47.208 +02:00 [INF] Route matched with {action = "DeleteKliens", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKliens(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:47.210 +02:00 [INF] Kliens lekérve: "f07fc107-9459-4cf3-af81-51b4bde079df"
+2024-05-27 21:30:47.210 +02:00 [INF] Kliens lekérve: "f07fc107-9459-4cf3-af81-51b4bde079df"
+2024-05-27 21:30:47.223 +02:00 [INF] Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Kliensek"
+WHERE "KliensId" = @p0
+RETURNING 1;
+2024-05-27 21:30:47.229 +02:00 [INF] Kliens sikeresen törölve: {"LazyLoader":{"$type":"LazyLoader"},"KliensId":"f07fc107-9459-4cf3-af81-51b4bde079df","KliensNev":"Alma","Lakcim":"Alam u. 6","Email":"alma@gmail.com","$type":"KliensProxy"}
+2024-05-27 21:30:47.232 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:30:47.232 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo) in 22.979ms
+2024-05-27 21:30:47.233 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:30:47.234 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/kliens/f07fc107-9459-4cf3-af81-51b4bde079df - 200 0 null 28.0343ms
+2024-05-27 21:30:47.252 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:30:47.253 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:30:47.254 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:47.255 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:30:47.256 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:30:47.256 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:30:47.257 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:30:47.258 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.3846ms
+2024-05-27 21:30:47.259 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:30:47.260 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.9545ms
+2024-05-27 21:31:09.712 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens - null null
+2024-05-27 21:31:09.717 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:09.719 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens - 204 null null 7.5524ms
+2024-05-27 21:31:09.722 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/kliens - application/json; charset=utf-8 115
+2024-05-27 21:31:09.723 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:09.724 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 21:31:09.727 +02:00 [INF] Route matched with {action = "Add", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Kliens) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:09.857 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+WHERE "k"."KliensId" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:31:09.860 +02:00 [INF] Kliens lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 21:31:09.890 +02:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 14), @p2='?' (Size = 4), @p3='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Kliensek" ("KliensId", "Email", "KliensNev", "Lakcim")
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-27 21:31:09.899 +02:00 [INF] Kliens hozzáadva: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:31:09.901 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:31:09.905 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo) in 177.1318ms
+2024-05-27 21:31:09.907 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 21:31:09.908 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/kliens - 200 0 null 185.9542ms
+2024-05-27 21:31:09.930 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:31:09.931 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:09.932 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:09.932 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:09.933 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:31:09.934 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:31:09.935 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:09.936 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.7555ms
+2024-05-27 21:31:09.937 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:09.938 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 8.206ms
+2024-05-27 21:31:15.896 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - null null
+2024-05-27 21:31:15.904 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:15.904 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:31:15.908 +02:00 [INF] Route matched with {action = "GetJobsOfClient", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AutoSzerelo.Shared.Munka]]] GetJobsOfClient(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:15.910 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:31:15.939 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__kliensId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."KliensId" = @__kliensId_0
+2024-05-27 21:31:15.945 +02:00 [INF] Munka sikeresen lekérve a kliens számára: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:31:15.946 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:15.947 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo) in 37.3357ms
+2024-05-27 21:31:15.947 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:31:15.948 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - 200 null application/json; charset=utf-8 52.255ms
+2024-05-27 21:31:18.955 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:31:18.959 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:18.959 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:18.960 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:18.961 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:31:18.963 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:31:18.965 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:18.966 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 5.3519ms
+2024-05-27 21:31:18.967 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:18.968 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 12.5834ms
+2024-05-27 21:31:40.155 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka - null null
+2024-05-27 21:31:40.161 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:40.162 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka - 204 null null 6.8908ms
+2024-05-27 21:31:40.170 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/munka - application/json; charset=utf-8 215
+2024-05-27 21:31:40.178 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:40.182 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 21:31:40.191 +02:00 [INF] Route matched with {action = "Add", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Munka) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:31:40.238 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."MunkaId" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:31:40.248 +02:00 [INF] Munka sikeresen lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 21:31:40.273 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int32), @p4='?' (DbType = Guid), @p5='?' (Size = 1), @p6='?' (DbType = Int32), @p7='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Munkak" ("MunkaId", "Allapot", "GyartasiEv", "HibaSulyossaga", "KliensId", "Leiras", "MKategoria", "Rendszam")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-27 21:31:40.278 +02:00 [INF] Munka sikeresen hozzáadva: "a37e0871-35f4-4d3d-bb92-5602dac43956"
+2024-05-27 21:31:40.278 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:31:40.279 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Add (AutoSzerelo) in 80.6973ms
+2024-05-27 21:31:40.279 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 21:31:40.280 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/munka - 200 0 null 110.4571ms
+2024-05-27 21:31:40.302 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:31:40.304 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:40.304 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:40.306 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:31:40.307 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:31:40.308 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:31:40.309 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:40.310 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 2.7804ms
+2024-05-27 21:31:40.310 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:40.311 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 8.6921ms
+2024-05-27 21:31:44.154 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:31:44.157 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:44.158 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:44.158 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:44.159 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:31:44.160 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:31:44.162 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:44.163 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.8961ms
+2024-05-27 21:31:44.164 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:31:44.164 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 10.6218ms
+2024-05-27 21:31:45.494 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - null null
+2024-05-27 21:31:45.499 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:31:45.501 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:31:45.501 +02:00 [INF] Route matched with {action = "GetJobsOfClient", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AutoSzerelo.Shared.Munka]]] GetJobsOfClient(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:31:45.503 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:31:45.507 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__kliensId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."KliensId" = @__kliensId_0
+2024-05-27 21:31:45.509 +02:00 [INF] Munka sikeresen lekérve a kliens számára: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:31:45.509 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:31:45.510 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo) in 7.3096ms
+2024-05-27 21:31:45.511 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:31:45.511 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - 200 null application/json; charset=utf-8 17.4309ms
+2024-05-27 21:32:47.798 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 21:32:47.817 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:32:47.820 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:32:47.821 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 21:32:59.149 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:32:59.251 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:32:59.258 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 21:32:59.268 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:32:59.309 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:32:59.543 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:01.094 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:01.226 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:01.286 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 1966.8901ms
+2024-05-27 21:33:01.291 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:01.294 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 2149.0102ms
+2024-05-27 21:33:04.085 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - null null
+2024-05-27 21:33:04.096 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:04.098 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:33:04.121 +02:00 [INF] Route matched with {action = "GetJobsOfClient", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AutoSzerelo.Shared.Munka]]] GetJobsOfClient(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:04.149 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:33:04.346 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[@__kliensId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."KliensId" = @__kliensId_0
+2024-05-27 21:33:04.414 +02:00 [INF] Munka sikeresen lekérve a kliens számára: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:33:04.419 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:04.481 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo) in 357.338ms
+2024-05-27 21:33:04.485 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 21:33:04.488 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b/munka - 200 null application/json; charset=utf-8 403.1837ms
+2024-05-27 21:33:05.955 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - null null
+2024-05-27 21:33:05.964 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:05.966 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:33:05.977 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:33:05.988 +02:00 [INF] Munka sikeresen lekérve: "a37e0871-35f4-4d3d-bb92-5602dac43956"
+2024-05-27 21:33:05.990 +02:00 [INF] Executing OkObjectResult, writing value of type 'Castle.Proxies.MunkaProxy'.
+2024-05-27 21:33:06.004 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 22.1916ms
+2024-05-27 21:33:06.006 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:33:06.008 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - 200 null application/json; charset=utf-8 52.9121ms
+2024-05-27 21:33:06.020 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:06.024 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:06.025 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:06.028 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:06.032 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:06.035 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:06.039 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:06.042 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 10.0406ms
+2024-05-27 21:33:06.049 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:06.053 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 33.5339ms
+2024-05-27 21:33:06.059 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:06.062 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:06.063 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:06.065 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:06.068 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:06.070 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:06.073 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:06.075 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 7.3358ms
+2024-05-27 21:33:06.077 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:06.078 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 19.6306ms
+2024-05-27 21:33:08.118 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - null null
+2024-05-27 21:33:08.124 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:08.128 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - 204 null null 9.8703ms
+2024-05-27 21:33:08.135 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - null null
+2024-05-27 21:33:08.145 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:08.147 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:33:08.157 +02:00 [INF] Route matched with {action = "Delete", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:33:08.166 +02:00 [INF] Munka sikeresen lekérve: "a37e0871-35f4-4d3d-bb92-5602dac43956"
+2024-05-27 21:33:08.170 +02:00 [INF] Munka sikeresen lekérve: "a37e0871-35f4-4d3d-bb92-5602dac43956"
+2024-05-27 21:33:08.392 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Munkak"
+WHERE "MunkaId" = @p0
+RETURNING 1;
+2024-05-27 21:33:08.425 +02:00 [INF] Munka sikeresen törölve: "a37e0871-35f4-4d3d-bb92-5602dac43956"
+2024-05-27 21:33:08.433 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:33:08.438 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo) in 274.492ms
+2024-05-27 21:33:08.444 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:33:08.447 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/munka/a37e0871-35f4-4d3d-bb92-5602dac43956 - 200 0 null 312.053ms
+2024-05-27 21:33:08.479 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:33:08.487 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:08.489 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:08.498 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:33:08.504 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:33:08.516 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:33:08.521 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:08.524 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 21.8406ms
+2024-05-27 21:33:08.526 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:08.527 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 48.5894ms
+2024-05-27 21:33:09.395 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:09.404 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:09.407 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:09.411 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:09.414 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:09.418 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:09.426 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:09.434 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 19.2582ms
+2024-05-27 21:33:09.436 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:09.438 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 42.6929ms
+2024-05-27 21:33:10.740 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - null null
+2024-05-27 21:33:10.746 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:10.748 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:33:10.760 +02:00 [INF] Route matched with {action = "Get", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Kliens]] Get(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:10.770 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:33:10.773 +02:00 [INF] Executing ObjectResult, writing value of type 'Castle.Proxies.KliensProxy'.
+2024-05-27 21:33:10.780 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo) in 11.2389ms
+2024-05-27 21:33:10.782 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:33:10.784 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - 200 null application/json; charset=utf-8 43.2638ms
+2024-05-27 21:33:12.943 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - null null
+2024-05-27 21:33:12.952 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:12.956 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - 204 null null 12.7984ms
+2024-05-27 21:33:12.967 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - null null
+2024-05-27 21:33:12.978 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:12.982 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:33:12.994 +02:00 [INF] Route matched with {action = "DeleteKliens", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKliens(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:13.007 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:33:13.013 +02:00 [INF] Kliens lekérve: "66e326aa-c52c-4cc4-ac0d-7807b167190b"
+2024-05-27 21:33:13.023 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Kliensek"
+WHERE "KliensId" = @p0
+RETURNING 1;
+2024-05-27 21:33:13.042 +02:00 [INF] Kliens sikeresen törölve: {"LazyLoader":{"$type":"LazyLoader"},"KliensId":"66e326aa-c52c-4cc4-ac0d-7807b167190b","KliensNev":"Alma","Lakcim":"Debrecen","Email":"alma@gmail.com","$type":"KliensProxy"}
+2024-05-27 21:33:13.072 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:33:13.078 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo) in 73.3947ms
+2024-05-27 21:33:13.082 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:33:13.085 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/kliens/66e326aa-c52c-4cc4-ac0d-7807b167190b - 200 0 null 117.0325ms
+2024-05-27 21:33:13.108 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:13.115 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:13.116 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:13.118 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:13.122 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:13.123 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:13.127 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:13.129 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 7.6244ms
+2024-05-27 21:33:13.131 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:13.132 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 24.2871ms
+2024-05-27 21:33:22.442 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens - null null
+2024-05-27 21:33:22.450 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:22.453 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens - 204 null null 10.7676ms
+2024-05-27 21:33:22.467 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/kliens - application/json; charset=utf-8 111
+2024-05-27 21:33:22.473 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:22.474 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 21:33:22.483 +02:00 [INF] Route matched with {action = "Add", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Kliens) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:22.581 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+WHERE "k"."KliensId" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:33:22.587 +02:00 [INF] Kliens lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 21:33:22.651 +02:00 [INF] Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 10), @p2='?' (Size = 4), @p3='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Kliensek" ("KliensId", "Email", "KliensNev", "Lakcim")
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-27 21:33:22.660 +02:00 [INF] Kliens hozzáadva: "c5e1fba7-ba40-4b61-9e3b-14e2a89568da"
+2024-05-27 21:33:22.662 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:33:22.664 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo) in 177.5588ms
+2024-05-27 21:33:22.666 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 21:33:22.668 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/kliens - 200 0 null 200.9733ms
+2024-05-27 21:33:22.703 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:22.709 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:22.710 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:22.712 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:22.720 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:22.725 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:22.734 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:22.737 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 17.5959ms
+2024-05-27 21:33:22.739 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:22.741 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 38.2259ms
+2024-05-27 21:33:25.742 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:33:25.752 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:25.754 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:25.756 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:33:25.760 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:33:25.762 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:33:25.772 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:25.778 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 18.1773ms
+2024-05-27 21:33:25.782 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:25.785 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 42.5847ms
+2024-05-27 21:33:53.507 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka - null null
+2024-05-27 21:33:53.511 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:53.513 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka - 204 null null 5.3677ms
+2024-05-27 21:33:53.520 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/munka - application/json; charset=utf-8 216
+2024-05-27 21:33:53.524 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:53.526 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 21:33:53.538 +02:00 [INF] Route matched with {action = "Add", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Munka) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:33:53.596 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."MunkaId" = @__get_Item_0
+LIMIT 1
+2024-05-27 21:33:53.600 +02:00 [INF] Munka sikeresen lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 21:33:53.642 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int32), @p4='?' (DbType = Guid), @p5='?' (Size = 2), @p6='?' (DbType = Int32), @p7='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Munkak" ("MunkaId", "Allapot", "GyartasiEv", "HibaSulyossaga", "KliensId", "Leiras", "MKategoria", "Rendszam")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-27 21:33:53.649 +02:00 [INF] Munka sikeresen hozzáadva: "ef6b0734-43e8-4489-ab9d-4c18ccbf954a"
+2024-05-27 21:33:53.651 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:33:53.652 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Add (AutoSzerelo) in 103.6301ms
+2024-05-27 21:33:53.654 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 21:33:53.656 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/munka - 200 0 null 135.7249ms
+2024-05-27 21:33:53.677 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:33:53.684 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:33:53.685 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:53.687 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:33:53.691 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:33:53.693 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:33:53.700 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:33:53.704 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 13.0439ms
+2024-05-27 21:33:53.708 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:33:53.714 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 36.52ms
+2024-05-27 21:34:14.268 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - null null
+2024-05-27 21:34:14.272 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:14.275 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:34:14.278 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:34:14.283 +02:00 [INF] Munka sikeresen lekérve: "ef6b0734-43e8-4489-ab9d-4c18ccbf954a"
+2024-05-27 21:34:14.286 +02:00 [INF] Executing OkObjectResult, writing value of type 'AutoSzerelo.Shared.Munka'.
+2024-05-27 21:34:14.288 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 5.4717ms
+2024-05-27 21:34:14.291 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 21:34:14.293 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - 200 null application/json; charset=utf-8 25.0382ms
+2024-05-27 21:34:14.298 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:14.304 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:14.306 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:14.308 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:14.314 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:14.316 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:14.323 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:14.327 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 13.5768ms
+2024-05-27 21:34:14.329 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:14.334 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 35.2716ms
+2024-05-27 21:34:14.339 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:14.342 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:14.343 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:14.345 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:14.348 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:14.350 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:14.354 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:14.356 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 7.8539ms
+2024-05-27 21:34:14.358 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:14.359 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 20.4136ms
+2024-05-27 21:34:15.478 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - null null
+2024-05-27 21:34:15.483 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:15.485 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - 204 null null 7.2056ms
+2024-05-27 21:34:15.492 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - null null
+2024-05-27 21:34:15.496 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:15.498 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:34:15.503 +02:00 [INF] Route matched with {action = "Delete", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:34:15.509 +02:00 [INF] Munka sikeresen lekérve: "ef6b0734-43e8-4489-ab9d-4c18ccbf954a"
+2024-05-27 21:34:15.513 +02:00 [INF] Munka sikeresen lekérve: "ef6b0734-43e8-4489-ab9d-4c18ccbf954a"
+2024-05-27 21:34:15.524 +02:00 [INF] Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Munkak"
+WHERE "MunkaId" = @p0
+RETURNING 1;
+2024-05-27 21:34:15.539 +02:00 [INF] Munka sikeresen törölve: "ef6b0734-43e8-4489-ab9d-4c18ccbf954a"
+2024-05-27 21:34:15.541 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:34:15.543 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo) in 34.8308ms
+2024-05-27 21:34:15.545 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Delete (AutoSzerelo)'
+2024-05-27 21:34:15.548 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/munka/ef6b0734-43e8-4489-ab9d-4c18ccbf954a - 200 0 null 55.1598ms
+2024-05-27 21:34:15.569 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:34:15.576 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:15.577 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:15.579 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:34:15.583 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:34:15.586 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:34:15.590 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:15.591 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 8.3518ms
+2024-05-27 21:34:15.593 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:15.596 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 26.5509ms
+2024-05-27 21:34:16.510 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:16.517 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:16.519 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:16.524 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:16.529 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:16.533 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:16.541 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:16.544 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 15.098ms
+2024-05-27 21:34:16.546 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:16.550 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 39.7567ms
+2024-05-27 21:34:17.844 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - null null
+2024-05-27 21:34:17.849 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:17.854 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:34:17.856 +02:00 [INF] Route matched with {action = "Get", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Kliens]] Get(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:17.863 +02:00 [INF] Kliens lekérve: "c5e1fba7-ba40-4b61-9e3b-14e2a89568da"
+2024-05-27 21:34:17.868 +02:00 [INF] Executing ObjectResult, writing value of type 'AutoSzerelo.Shared.Kliens'.
+2024-05-27 21:34:17.871 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo) in 8.7472ms
+2024-05-27 21:34:17.873 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 21:34:17.877 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - 200 null application/json; charset=utf-8 33.7846ms
+2024-05-27 21:34:19.280 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - null null
+2024-05-27 21:34:19.292 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:19.295 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - 204 null null 14.4866ms
+2024-05-27 21:34:19.303 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - null null
+2024-05-27 21:34:19.312 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:19.314 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:34:19.317 +02:00 [INF] Route matched with {action = "DeleteKliens", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKliens(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:19.321 +02:00 [INF] Kliens lekérve: "c5e1fba7-ba40-4b61-9e3b-14e2a89568da"
+2024-05-27 21:34:19.324 +02:00 [INF] Kliens lekérve: "c5e1fba7-ba40-4b61-9e3b-14e2a89568da"
+2024-05-27 21:34:19.340 +02:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Kliensek"
+WHERE "KliensId" = @p0
+RETURNING 1;
+2024-05-27 21:34:19.355 +02:00 [INF] Kliens sikeresen törölve: {"KliensId":"c5e1fba7-ba40-4b61-9e3b-14e2a89568da","KliensNev":"Alma","Lakcim":"Debrecen","Email":"alma@gmail","$type":"Kliens"}
+2024-05-27 21:34:19.371 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 21:34:19.377 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo) in 56.3641ms
+2024-05-27 21:34:19.384 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 21:34:19.390 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/kliens/c5e1fba7-ba40-4b61-9e3b-14e2a89568da - 200 0 null 87.2419ms
+2024-05-27 21:34:19.413 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:19.422 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:19.425 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:19.428 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:19.434 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:19.438 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:19.446 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:19.450 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 15.4555ms
+2024-05-27 21:34:19.455 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:19.475 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 62.4146ms
+2024-05-27 21:34:20.924 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:20.932 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:20.933 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:20.935 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:20.942 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:20.944 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:20.947 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:20.950 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 8.5363ms
+2024-05-27 21:34:20.952 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:20.953 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 28.6725ms
+2024-05-27 21:34:21.506 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:34:21.511 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:21.513 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:21.515 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:34:21.525 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:34:21.529 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:34:21.537 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:21.539 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 14.4206ms
+2024-05-27 21:34:21.542 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:21.547 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 40.748ms
+2024-05-27 21:34:22.556 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 21:34:22.567 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:34:22.568 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:22.570 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 21:34:22.574 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 21:34:22.576 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 21:34:22.580 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:34:22.583 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 9.166ms
+2024-05-27 21:34:22.585 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 21:34:22.588 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 31.675ms
+2024-05-27 21:35:20.701 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 21:35:20.722 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:35:20.725 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:35:20.726 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 21:42:55.076 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 21:42:55.095 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 21:42:55.097 +02:00 [INF] Hosting environment: Development
+2024-05-27 21:42:55.097 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 21:43:05.337 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:43:05.439 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:43:05.446 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 21:43:05.458 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:43:05.495 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:43:05.740 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:43:07.286 +02:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:43:07.326 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:43:07.382 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 1869.8104ms
+2024-05-27 21:43:07.387 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:43:07.391 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 2055.9732ms
+2024-05-27 21:43:10.667 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 21:43:10.677 +02:00 [INF] CORS policy execution successful.
+2024-05-27 21:43:10.679 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:43:10.682 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 21:43:10.689 +02:00 [INF] Kliensek lekérve
+2024-05-27 21:43:10.697 +02:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 21:43:10.709 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 21:43:10.712 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 23.3779ms
+2024-05-27 21:43:10.715 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 21:43:10.721 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 54.144ms
+2024-05-27 22:54:36.617 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 22:54:36.650 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 22:54:36.651 +02:00 [INF] Hosting environment: Development
+2024-05-27 22:54:36.651 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 22:54:46.067 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:54:46.348 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:46.356 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 22:54:46.379 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:46.483 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:54:47.313 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:54:51.153 +02:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:54:51.165 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:54:51.187 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 4692.6323ms
+2024-05-27 22:54:51.188 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:51.189 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 5133.9777ms
+2024-05-27 22:54:55.427 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens - null null
+2024-05-27 22:54:55.431 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:55.432 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens - 204 null null 5.3316ms
+2024-05-27 22:54:55.435 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/kliens - application/json; charset=utf-8 99
+2024-05-27 22:54:55.439 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:55.439 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 22:54:55.445 +02:00 [INF] Route matched with {action = "Add", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Kliens) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:54:55.531 +02:00 [INF] Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+WHERE "k"."KliensId" = @__get_Item_0
+LIMIT 1
+2024-05-27 22:54:55.538 +02:00 [INF] Kliens lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 22:54:55.611 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 3), @p2='?' (Size = 4), @p3='?' (Size = 3)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Kliensek" ("KliensId", "Email", "KliensNev", "Lakcim")
+VALUES (@p0, @p1, @p2, @p3);
+2024-05-27 22:54:55.622 +02:00 [INF] Kliens hozzáadva: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 22:54:55.628 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 22:54:55.630 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo) in 184.1073ms
+2024-05-27 22:54:55.631 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Add (AutoSzerelo)'
+2024-05-27 22:54:55.631 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/kliens - 200 0 null 195.7806ms
+2024-05-27 22:54:55.656 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:54:55.658 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:55.658 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:55.659 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:54:55.660 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:54:55.661 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:54:55.664 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:54:55.667 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 7.3009ms
+2024-05-27 22:54:55.668 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:55.669 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 13.3876ms
+2024-05-27 22:54:56.989 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 22:54:56.999 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:57.001 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:57.005 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:54:57.010 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 22:54:57.021 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 22:54:57.025 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:54:57.043 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 34.1157ms
+2024-05-27 22:54:57.046 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:57.049 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 59.9327ms
+2024-05-27 22:54:57.986 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:54:57.988 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:54:57.989 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:57.990 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:54:57.992 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:54:57.993 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:54:57.995 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:54:57.996 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 4.3062ms
+2024-05-27 22:54:57.997 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:54:57.998 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 11.5418ms
+2024-05-27 22:55:01.790 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 22:55:01.792 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:01.794 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:01.795 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:55:01.798 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 22:55:01.800 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 22:55:01.803 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:01.804 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 6.2075ms
+2024-05-27 22:55:01.806 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:01.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 16.4603ms
+2024-05-27 22:55:03.408 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:03.412 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:03.414 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:03.416 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:03.417 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:03.418 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:03.419 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:03.420 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.7919ms
+2024-05-27 22:55:03.421 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:03.422 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 14.1434ms
+2024-05-27 22:55:26.394 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/munka - null null
+2024-05-27 22:55:26.396 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:26.397 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/munka - 204 null null 3.3329ms
+2024-05-27 22:55:26.402 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/munka - application/json; charset=utf-8 219
+2024-05-27 22:55:26.405 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:26.406 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 22:55:26.410 +02:00 [INF] Route matched with {action = "Add", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Add(AutoSzerelo.Shared.Munka) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:55:26.446 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."MunkaId" = @__get_Item_0
+LIMIT 1
+2024-05-27 22:55:26.449 +02:00 [INF] Munka sikeresen lekérve: "00000000-0000-0000-0000-000000000000"
+2024-05-27 22:55:26.492 +02:00 [INF] Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?' (DbType = DateTime), @p3='?' (DbType = Int32), @p4='?' (DbType = Guid), @p5='?' (Size = 5), @p6='?' (DbType = Int32), @p7='?' (Size = 7)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Munkak" ("MunkaId", "Allapot", "GyartasiEv", "HibaSulyossaga", "KliensId", "Leiras", "MKategoria", "Rendszam")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2024-05-27 22:55:26.498 +02:00 [INF] Munka sikeresen hozzáadva: "60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41"
+2024-05-27 22:55:26.498 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 22:55:26.499 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Add (AutoSzerelo) in 86.1195ms
+2024-05-27 22:55:26.499 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Add (AutoSzerelo)'
+2024-05-27 22:55:26.501 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/munka - 200 0 null 99.429ms
+2024-05-27 22:55:26.522 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 22:55:26.527 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:26.527 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:26.528 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:55:26.528 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 22:55:26.529 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 22:55:26.531 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:26.537 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 8.2438ms
+2024-05-27 22:55:26.538 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:26.539 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 16.9704ms
+2024-05-27 22:55:33.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41 - null null
+2024-05-27 22:55:33.609 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:33.610 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 22:55:33.617 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:55:33.620 +02:00 [INF] Munka sikeresen lekérve: "60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41"
+2024-05-27 22:55:33.620 +02:00 [INF] Executing OkObjectResult, writing value of type 'AutoSzerelo.Shared.Munka'.
+2024-05-27 22:55:33.621 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 2.9628ms
+2024-05-27 22:55:33.622 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 22:55:33.623 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41 - 200 null application/json; charset=utf-8 17.0099ms
+2024-05-27 22:55:33.630 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:33.632 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:33.633 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:33.635 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:33.637 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:33.639 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:33.641 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:33.642 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 4.8616ms
+2024-05-27 22:55:33.643 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:33.646 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 15.6683ms
+2024-05-27 22:55:33.650 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:33.653 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:33.653 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:33.655 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:33.657 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:33.657 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:33.659 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:33.660 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.1767ms
+2024-05-27 22:55:33.660 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:33.661 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 11.0574ms
+2024-05-27 22:55:36.220 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:36.222 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:36.223 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:36.224 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:36.225 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:36.226 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:36.227 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:36.228 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.2062ms
+2024-05-27 22:55:36.229 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:36.230 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 10.0821ms
+2024-05-27 22:55:41.606 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74/munka - null null
+2024-05-27 22:55:41.623 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:41.626 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 22:55:41.629 +02:00 [INF] Route matched with {action = "GetJobsOfClient", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AutoSzerelo.Shared.Munka]]] GetJobsOfClient(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:41.634 +02:00 [INF] Kliens lekérve: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 22:55:41.645 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__kliensId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."KliensId" = @__kliensId_0
+2024-05-27 22:55:41.648 +02:00 [INF] Munka sikeresen lekérve a kliens számára: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 22:55:41.649 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:41.650 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo) in 17.2281ms
+2024-05-27 22:55:41.651 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 22:55:41.652 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74/munka - 200 null application/json; charset=utf-8 45.8575ms
+2024-05-27 22:55:47.475 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka/60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41 - null null
+2024-05-27 22:55:47.478 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:47.478 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 22:55:47.480 +02:00 [INF] Route matched with {action = "Get", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Munka]] Get(System.Guid) on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 22:55:47.481 +02:00 [INF] Munka sikeresen lekérve: "60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41"
+2024-05-27 22:55:47.482 +02:00 [INF] Executing OkObjectResult, writing value of type 'AutoSzerelo.Shared.Munka'.
+2024-05-27 22:55:47.483 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.Get (AutoSzerelo) in 1.559ms
+2024-05-27 22:55:47.484 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.Get (AutoSzerelo)'
+2024-05-27 22:55:47.485 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka/60a9d2e0-e0a3-4e08-8573-1abcb4dc1a41 - 200 null application/json; charset=utf-8 9.9047ms
+2024-05-27 22:55:47.488 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:47.489 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:47.490 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:47.491 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:47.492 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:47.492 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:47.493 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:47.494 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.7975ms
+2024-05-27 22:55:47.495 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:47.496 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.544ms
+2024-05-27 22:55:47.500 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:47.501 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:47.502 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:47.502 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:47.504 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:47.506 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:47.508 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:47.509 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 5.0966ms
+2024-05-27 22:55:47.511 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:47.512 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 12.4956ms
+2024-05-27 22:55:51.057 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74/munka - null null
+2024-05-27 22:55:51.061 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:51.062 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 22:55:51.064 +02:00 [INF] Route matched with {action = "GetJobsOfClient", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[AutoSzerelo.Shared.Munka]]] GetJobsOfClient(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:51.065 +02:00 [INF] Kliens lekérve: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 22:55:51.069 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[@__kliensId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+WHERE "m"."KliensId" = @__kliensId_0
+2024-05-27 22:55:51.071 +02:00 [INF] Munka sikeresen lekérve a kliens számára: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 22:55:51.071 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:51.072 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo) in 7.5144ms
+2024-05-27 22:55:51.074 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetJobsOfClient (AutoSzerelo)'
+2024-05-27 22:55:51.074 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74/munka - 200 null application/json; charset=utf-8 17.2327ms
+2024-05-27 22:55:58.409 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 22:55:58.413 +02:00 [INF] CORS policy execution successful.
+2024-05-27 22:55:58.415 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:58.415 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 22:55:58.416 +02:00 [INF] Kliensek lekérve
+2024-05-27 22:55:58.417 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 22:55:58.419 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 22:55:58.420 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.7096ms
+2024-05-27 22:55:58.422 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 22:55:58.423 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 13.1308ms
+2024-05-27 23:55:43.072 +02:00 [INF] Now listening on: http://localhost:8080
+2024-05-27 23:55:43.121 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-05-27 23:55:43.270 +02:00 [INF] Hosting environment: Development
+2024-05-27 23:55:43.314 +02:00 [INF] Content root path: D:\egyeteM\C#VsStudio\AutoSzerelo\AutoSzerelo
+2024-05-27 23:55:55.050 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 23:55:55.086 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:55:55.088 +02:00 [WRN] Failed to determine the https port for redirect.
+2024-05-27 23:55:55.091 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:55:55.102 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:55:55.209 +02:00 [INF] Kliensek lekérve
+2024-05-27 23:55:55.901 +02:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 23:55:56.010 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:55:56.056 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 946.7611ms
+2024-05-27 23:55:56.059 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:55:56.062 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 1012.4804ms
+2024-05-27 23:55:58.765 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - null null
+2024-05-27 23:55:58.771 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:55:58.773 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 23:55:58.780 +02:00 [INF] Route matched with {action = "Get", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AutoSzerelo.Shared.Kliens]] Get(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:55:58.793 +02:00 [INF] Kliens lekérve: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 23:55:58.794 +02:00 [INF] Executing ObjectResult, writing value of type 'Castle.Proxies.KliensProxy'.
+2024-05-27 23:55:58.804 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo) in 22.7633ms
+2024-05-27 23:55:58.806 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.Get (AutoSzerelo)'
+2024-05-27 23:55:58.807 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - 200 null application/json; charset=utf-8 41.4738ms
+2024-05-27 23:55:59.954 +02:00 [INF] Request starting HTTP/1.1 OPTIONS http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - null null
+2024-05-27 23:55:59.960 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:55:59.961 +02:00 [INF] Request finished HTTP/1.1 OPTIONS http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - 204 null null 7.3508ms
+2024-05-27 23:55:59.963 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - null null
+2024-05-27 23:55:59.964 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:55:59.964 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 23:55:59.967 +02:00 [INF] Route matched with {action = "DeleteKliens", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteKliens(System.Guid) on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:55:59.970 +02:00 [INF] Kliens lekérve: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 23:55:59.971 +02:00 [INF] Kliens lekérve: "e9826929-0ec9-4704-b4f8-7b779b277b74"
+2024-05-27 23:56:00.070 +02:00 [INF] Executed DbCommand (17ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Kliensek"
+WHERE "KliensId" = @p0
+RETURNING 1;
+2024-05-27 23:56:00.089 +02:00 [INF] Kliens sikeresen törölve: {"LazyLoader":{"$type":"LazyLoader"},"KliensId":"e9826929-0ec9-4704-b4f8-7b779b277b74","KliensNev":"REGI","Lakcim":"SDW","Email":"r@G","$type":"KliensProxy"}
+2024-05-27 23:56:00.095 +02:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2024-05-27 23:56:00.096 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo) in 127.0588ms
+2024-05-27 23:56:00.096 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.DeleteKliens (AutoSzerelo)'
+2024-05-27 23:56:00.097 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:8080/kliens/e9826929-0ec9-4704-b4f8-7b779b277b74 - 200 0 null 133.9543ms
+2024-05-27 23:56:00.121 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 23:56:00.122 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:56:00.123 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:00.123 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:56:00.124 +02:00 [INF] Kliensek lekérve
+2024-05-27 23:56:00.125 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 23:56:00.127 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:56:00.127 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.2612ms
+2024-05-27 23:56:00.128 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:00.128 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.6117ms
+2024-05-27 23:56:01.131 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 23:56:01.133 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:56:01.133 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:01.134 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:56:01.135 +02:00 [INF] Kliensek lekérve
+2024-05-27 23:56:01.135 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 23:56:01.136 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:56:01.137 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.3773ms
+2024-05-27 23:56:01.138 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:01.138 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.2455ms
+2024-05-27 23:56:02.362 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/munka - null null
+2024-05-27 23:56:02.363 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:56:02.363 +02:00 [INF] Executing endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:02.366 +02:00 [INF] Route matched with {action = "GetAll", controller = "Munka"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Munka]]] GetAll() on controller MechanicApp.Controllers.MunkaController (AutoSzerelo).
+2024-05-27 23:56:02.368 +02:00 [INF] Munkák sikeresen lekérve
+2024-05-27 23:56:02.375 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "m"."MunkaId", "m"."Allapot", "m"."GyartasiEv", "m"."HibaSulyossaga", "m"."KliensId", "m"."Leiras", "m"."MKategoria", "m"."Rendszam"
+FROM "Munkak" AS "m"
+2024-05-27 23:56:02.377 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Munka, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:56:02.389 +02:00 [INF] Executed action MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo) in 22.0914ms
+2024-05-27 23:56:02.390 +02:00 [INF] Executed endpoint 'MechanicApp.Controllers.MunkaController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:02.390 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/munka - 200 null application/json; charset=utf-8 28.9118ms
+2024-05-27 23:56:04.886 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 23:56:04.887 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:56:04.888 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:04.889 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:56:04.890 +02:00 [INF] Kliensek lekérve
+2024-05-27 23:56:04.891 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 23:56:04.892 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:56:04.893 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 2.9926ms
+2024-05-27 23:56:04.893 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:04.894 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.9407ms
+2024-05-27 23:56:15.528 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/kliens - null null
+2024-05-27 23:56:15.529 +02:00 [INF] CORS policy execution successful.
+2024-05-27 23:56:15.529 +02:00 [INF] Executing endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:15.530 +02:00 [INF] Route matched with {action = "GetAll", controller = "Kliens"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[AutoSzerelo.Shared.Kliens]]] GetAll() on controller AutoSzerelo.Controllers.KliensController (AutoSzerelo).
+2024-05-27 23:56:15.531 +02:00 [INF] Kliensek lekérve
+2024-05-27 23:56:15.532 +02:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "k"."KliensId", "k"."Email", "k"."KliensNev", "k"."Lakcim"
+FROM "Kliensek" AS "k"
+2024-05-27 23:56:15.533 +02:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AutoSzerelo.Shared.Kliens, AutoSzerelo.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-05-27 23:56:15.534 +02:00 [INF] Executed action AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo) in 3.2544ms
+2024-05-27 23:56:15.535 +02:00 [INF] Executed endpoint 'AutoSzerelo.Controllers.KliensController.GetAll (AutoSzerelo)'
+2024-05-27 23:56:15.536 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/kliens - 200 null application/json; charset=utf-8 7.7859ms

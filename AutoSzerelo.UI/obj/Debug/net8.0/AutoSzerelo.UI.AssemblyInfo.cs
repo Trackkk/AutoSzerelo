@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoSzerelo.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf6c863080d22b6d6195e3622a1559ba7abc3ea7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7313ae3aeb02c6a28cf862c9bb00fe22690bef58")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoSzerelo.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoSzerelo.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
